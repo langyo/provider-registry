@@ -1,9 +1,9 @@
-# gpt-oss-20b
+# GPT OSS 20B
 # Provider: openrouter
 
 [model]
 id = "openai/gpt-oss-20b"
-name = "gpt-oss-20b"
+name = "GPT OSS 20B"
 provider_id = "openrouter"
 
 context_window = 131072
