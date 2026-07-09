@@ -1,13 +1,13 @@
-# Kimi K2.6
+# Grok Latest
 # Provider: openrouter
 
 [model]
-id = "moonshotai/kimi-k2.6"
-name = "Kimi K2.6"
+id = "~x-ai/grok-latest"
+name = "Grok Latest"
 provider_id = "openrouter"
 
-context_window = 262144
-max_output_tokens = 262144
+context_window = 500000
+max_output_tokens = 1000000
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 0.65
-output_per_million = 3.41
-cached_per_million = 0.14
+input_per_million = 2.0
+output_per_million = 6.0
+cached_per_million = 0.5

@@ -6,8 +6,8 @@ id = "thedrummer/rocinante-12b"
 name = "Rocinante 12B"
 provider_id = "openrouter"
 
-context_window = 32768
-max_output_tokens = 32768
+context_window = 65536
+max_output_tokens = 65536
 supports_vision = false
 supports_function_calling = false
 supports_streaming = true
