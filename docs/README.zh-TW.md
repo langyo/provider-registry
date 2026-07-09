@@ -124,4 +124,4 @@ git submodule add https://github.com/celestia-island/provider-registry.git provi
 
 ## 授權條款
 
-[CC0 1.0 Universal](LICENSE) — 公共領域，無任何限制。
+[CC0 1.0 Universal](../LICENSE) — 公共領域，無任何限制。

@@ -124,4 +124,4 @@ git submodule add https://github.com/celestia-island/provider-registry.git provi
 
 ## Лицензия
 
-[CC0 1.0 Universal](LICENSE) — общественное достояние, без ограничений.
+[CC0 1.0 Universal](../LICENSE) — общественное достояние, без ограничений.

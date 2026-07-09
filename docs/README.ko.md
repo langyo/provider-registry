@@ -124,4 +124,4 @@ Actions 탭에서 소스 및 프로바이더 필터를 구성하여 수동으로
 
 ## 라이선스
 
-[CC0 1.0 Universal](LICENSE) — 퍼블릭 도메인, 제한 없음.
+[CC0 1.0 Universal](../LICENSE) — 퍼블릭 도메인, 제한 없음.

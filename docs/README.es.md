@@ -124,4 +124,4 @@ Se pueden realizar ejecuciones manuales desde la pestaña Actions con filtros co
 
 ## Licencia
 
-[CC0 1.0 Universal](LICENSE) — dominio público, sin restricciones.
+[CC0 1.0 Universal](../LICENSE) — dominio público, sin restricciones.

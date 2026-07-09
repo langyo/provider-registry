@@ -124,4 +124,4 @@ Des déclenchements manuels sont disponibles via l'onglet Actions avec des filtr
 
 ## Licence
 
-[CC0 1.0 Universal](LICENSE) — domaine public, sans restrictions.
+[CC0 1.0 Universal](../LICENSE) — domaine public, sans restrictions.
