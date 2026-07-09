@@ -2,3 +2,13 @@ __pycache__/
 *.py[cod]
 
 /target
+
+# Logs
+*.log
+
+# Editor / OS cruft
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
