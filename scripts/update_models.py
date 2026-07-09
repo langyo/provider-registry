@@ -19,12 +19,10 @@ Both OpenRouter API and models.dev API do not require API keys and are directly 
 
 import argparse
 import json
-import os
 import sys
 import urllib.error
 import urllib.request
 from dataclasses import dataclass, field
-from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -337,7 +335,6 @@ def parse_openrouter_model(model_data: Dict) -> Optional[ModelInfo]:
     # Get architecture info
     arch = model_data.get('architecture', {})
     input_modalities = arch.get('input_modalities', ['text'])
-    output_modalities = arch.get('output_modalities', ['text'])
 
     # Determine capabilities
     supports_vision = 'image' in input_modalities or 'vision' in model_name.lower()
@@ -746,7 +743,6 @@ def save_entrypoint_config(provider_id: str, entrypoint_file: str, config: Dict,
     config_path.parent.mkdir(parents=True, exist_ok=True)
 
     try:
-        import toml  # type: ignore[import-untyped]
 
         with open(config_path, 'w', encoding='utf-8') as f:
             # Write entrypoint section
@@ -915,14 +911,14 @@ def save_individual_model_files(
                 # Write header comment
                 f.write(f"# {model.name}\n")
                 f.write(f"# Provider: {provider_id}\n")
-                f.write(f"\n")
+                f.write("\n")
 
                 # Write [model] section
                 f.write("[model]\n")
                 f.write(f'id = "{model.id}"\n')
                 f.write(f'name = "{model.name}"\n')
                 f.write(f'provider_id = "{provider_id}"\n')
-                f.write(f'\n')
+                f.write('\n')
 
                 # Write capabilities
                 f.write(f"context_window = {model.context_window}\n")
@@ -937,10 +933,10 @@ def save_individual_model_files(
                     tags_str = '", "'.join(model.tags)
                     f.write(f'tags = ["{tags_str}"]\n')
                 else:
-                    f.write(f"tags = []\n")
+                    f.write("tags = []\n")
 
                 # Write pricing
-                f.write(f"\n[model.pricing]\n")
+                f.write("\n[model.pricing]\n")
                 f.write(f"input_per_million = {model.pricing_input}\n")
                 f.write(f"output_per_million = {model.pricing_output}\n")
                 if model.pricing_cached > 0:
@@ -948,7 +944,7 @@ def save_individual_model_files(
 
                 # Write capability score (when available)
                 if model.score is not None:
-                    f.write(f"\n[model.score]\n")
+                    f.write("\n[model.score]\n")
                     f.write(f"value = {model.score}\n")
                     src = model.score_source if model.score_source else 'manual'
                     f.write(f'source = "{src}"\n')
