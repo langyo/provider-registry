@@ -15,3 +15,6 @@ Thumbs.db
 
 # celestia-devtools: staged-on-demand shared justfile recipes (just fetch)
 /.just/
+
+# celestia-devtools: staged-on-demand shared justfile recipes (celestia-devtools init / just fetch)
+/celestia-devtools.just

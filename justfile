@@ -5,10 +5,11 @@ set unstable
 set lists
 
 # Shared celestia-devtools recipes — NOT in git. Stage with: just fetch.
+import? "./.just/git-bash-interop.just"
 import? "./.just/celestia-devtools.just"
 
 # Stage shared celestia-devtools recipes into .just/ (gitignored).
-[script('bash')]
+[script]
 fetch URL='':
     #!/usr/bin/env bash
     set -euo pipefail
@@ -18,6 +19,7 @@ fetch URL='':
       curl -fsSL "{{URL}}" -o "$out"
     elif command -v celestia-devtools >/dev/null 2>&1; then
       cp "$(celestia-devtools include-path)" "$out"
+      celestia-devtools init --force >/dev/null 2>&1 || true
     else
       curl -fsSL "https://raw.githubusercontent.com/celestia-island/celestia-devtools/dev/src/celestia_devtools/common.just" -o "$out"
     fi
