@@ -15,9 +15,9 @@ supports_reasoning = true
 tags = ["flagship"]
 
 [model.pricing]
-input_per_million = 0.41
-output_per_million = 1.28
-cached_per_million = 0.0754
+input_per_million = 0.35
+output_per_million = 1.1
+cached_per_million = 0.065
 
 [model.score]
 value = 67.89
