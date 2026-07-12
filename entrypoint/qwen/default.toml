@@ -150,14 +150,6 @@ input_per_million = 0.8
 output_per_million = 3.2
 
 [[entrypoint.models]]
-id = "qwen2.5-vl-72b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.8
-output_per_million = 1.0
-cached_per_million = 0.4
-
-[[entrypoint.models]]
 id = "qwq-plus"
 
 [entrypoint.models.pricing]
@@ -394,3 +386,10 @@ id = "qwen2-5-14b-instruct"
 [entrypoint.models.pricing]
 input_per_million = 0.35
 output_per_million = 1.4
+
+[[entrypoint.models]]
+id = "qwen2-5-vl-7b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.35
+output_per_million = 1.05

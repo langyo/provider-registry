@@ -72,9 +72,9 @@ cached_per_million = 0.1794
 id = "glm-5.2"
 
 [entrypoint.models.pricing]
-input_per_million = 0.7
-output_per_million = 2.2
-cached_per_million = 0.13
+input_per_million = 0.42
+output_per_million = 1.32
+cached_per_million = 0.078
 
 [[entrypoint.models]]
 id = "glm-4.5"
