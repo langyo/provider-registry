@@ -167,13 +167,6 @@ input_per_million = 0.1
 output_per_million = 0.3
 
 [[entrypoint.models]]
-id = "gemma-4-26b-a4b-it"
-
-[entrypoint.models.pricing]
-input_per_million = 0.1
-output_per_million = 0.3
-
-[[entrypoint.models]]
 id = "gemini-2.0-flash-lite"
 
 [entrypoint.models.pricing]
@@ -186,6 +179,13 @@ id = "gemini-2.0-flash-lite-001"
 [entrypoint.models.pricing]
 input_per_million = 0.07
 output_per_million = 0.3
+
+[[entrypoint.models]]
+id = "gemma-4-26b-a4b-it"
+
+[entrypoint.models.pricing]
+input_per_million = 0.07
+output_per_million = 0.34
 
 [[entrypoint.models]]
 id = "gemma-3n-e4b-it"

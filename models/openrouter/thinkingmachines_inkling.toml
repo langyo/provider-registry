@@ -1,20 +1,20 @@
-# Kimi K2.7 Code
+# Inkling
 # Provider: openrouter
 
 [model]
-id = "moonshotai/kimi-k2.7-code"
-name = "Kimi K2.7 Code"
+id = "thinkingmachines/inkling"
+name = "Inkling"
 provider_id = "openrouter"
 
-context_window = 262144
-max_output_tokens = 262144
+context_window = 1048576
+max_output_tokens = 1048576
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
-tags = []
+tags = ["reasoning"]
 
 [model.pricing]
-input_per_million = 0.85
-output_per_million = 3.8
+input_per_million = 1.0
+output_per_million = 4.05
 cached_per_million = 0.17
