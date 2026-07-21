@@ -1,10 +1,10 @@
-# Google Gemini Flash Latest
-# Provider: openrouter
+# Gemini 3.6 Flash
+# Provider: google
 
 [model]
-id = "~google/gemini-flash-latest"
-name = "Google Gemini Flash Latest"
-provider_id = "openrouter"
+id = "gemini-3.6-flash"
+name = "Gemini 3.6 Flash"
+provider_id = "google"
 
 context_window = 1048576
 max_output_tokens = 65536

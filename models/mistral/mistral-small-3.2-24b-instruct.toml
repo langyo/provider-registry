@@ -6,7 +6,7 @@ id = "mistral-small-3.2-24b-instruct"
 name = "Mistral: Mistral Small 3.2 24B"
 provider_id = "mistral"
 
-context_window = 131072
+context_window = 256000
 max_output_tokens = 16384
 supports_vision = true
 supports_function_calling = true

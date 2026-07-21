@@ -28,8 +28,8 @@ ru = "Google Gemini (Официальный)"
 
 [entrypoint.defaults]
 deep = "gemma-4-31b-it"
-normal = "gemini-3.1-flash-lite"
-basic = "gemini-2.5-flash"
+normal = "gemini-3.5-flash"
+basic = "gemini-3.5-flash-lite"
 
 [entrypoint.defaults.max_concurrent]
 deep = 1
@@ -50,6 +50,14 @@ id = "gemini-3.5-flash"
 [entrypoint.models.pricing]
 input_per_million = 1.5
 output_per_million = 9.0
+cached_per_million = 0.15
+
+[[entrypoint.models]]
+id = "gemini-3.6-flash"
+
+[entrypoint.models.pricing]
+input_per_million = 1.5
+output_per_million = 7.5
 cached_per_million = 0.15
 
 [[entrypoint.models]]
@@ -84,6 +92,14 @@ output_per_million = 3.0
 
 [[entrypoint.models]]
 id = "gemini-2.5-flash"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 2.5
+cached_per_million = 0.03
+
+[[entrypoint.models]]
+id = "gemini-3.5-flash-lite"
 
 [entrypoint.models.pricing]
 input_per_million = 0.3
