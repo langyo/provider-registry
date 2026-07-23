@@ -6,7 +6,7 @@ id = "thinkingmachines/inkling"
 name = "Inkling"
 provider_id = "openrouter"
 
-context_window = 524288
+context_window = 1048576
 max_output_tokens = 1048576
 supports_vision = true
 supports_function_calling = true

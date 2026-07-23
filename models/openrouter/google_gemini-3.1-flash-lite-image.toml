@@ -7,7 +7,7 @@ name = "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
 provider_id = "openrouter"
 
 context_window = 65536
-max_output_tokens = 65536
+max_output_tokens = 66000
 supports_vision = true
 supports_function_calling = false
 supports_streaming = true
