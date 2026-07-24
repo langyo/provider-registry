@@ -29,7 +29,7 @@ ru = "Fireworks AI"
 [entrypoint.defaults]
 deep = "accounts/fireworks/routers/glm-5p1-fast"
 normal = "accounts/fireworks/routers/glm-5p2-fast"
-basic = "accounts/fireworks/models/minimax-m3"
+basic = "accounts/fireworks/models/minimax-m2p7"
 
 [entrypoint.defaults.max_concurrent]
 deep = 1
