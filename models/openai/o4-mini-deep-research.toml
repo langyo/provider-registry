@@ -1,13 +1,13 @@
-# o4-mini-deep-research
+# o4 Mini Deep Research
 # Provider: openai
 
 [model]
 id = "o4-mini-deep-research"
-name = "o4-mini-deep-research"
+name = "o4 Mini Deep Research"
 provider_id = "openai"
 
 context_window = 200000
-max_output_tokens = 100000
+max_output_tokens = 16384
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true

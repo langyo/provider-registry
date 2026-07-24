@@ -1,20 +1,20 @@
-# Hy3
+# Claude Opus 5
 # Provider: openrouter
 
 [model]
-id = "tencent/hy3"
-name = "Hy3"
+id = "anthropic/claude-opus-5"
+name = "Claude Opus 5"
 provider_id = "openrouter"
 
-context_window = 262144
+context_window = 1000000
 max_output_tokens = 128000
-supports_vision = false
+supports_vision = true
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 0.132
-output_per_million = 0.528
-cached_per_million = 0.033
+input_per_million = 5.0
+output_per_million = 25.0
+cached_per_million = 0.5

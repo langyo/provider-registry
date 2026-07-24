@@ -1,17 +1,17 @@
-# GPT-5.1 Codex mini
+# GPT-5.1-Codex-Mini
 # Provider: openai
 
 [model]
 id = "gpt-5.1-codex-mini"
-name = "GPT-5.1 Codex mini"
+name = "GPT-5.1-Codex-Mini"
 provider_id = "openai"
 
 context_window = 400000
-max_output_tokens = 128000
+max_output_tokens = 16384
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
-supports_reasoning = true
+supports_reasoning = false
 tags = ["coding", "cost_effective"]
 
 [model.pricing]

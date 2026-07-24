@@ -7,7 +7,7 @@ name = "Nano Banana 2 Lite"
 provider_id = "google"
 
 context_window = 65536
-max_output_tokens = 4096
+max_output_tokens = 65536
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true

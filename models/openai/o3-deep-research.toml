@@ -1,13 +1,13 @@
-# o3-deep-research
+# o3 Deep Research
 # Provider: openai
 
 [model]
 id = "o3-deep-research"
-name = "o3-deep-research"
+name = "o3 Deep Research"
 provider_id = "openai"
 
 context_window = 200000
-max_output_tokens = 100000
+max_output_tokens = 16384
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
