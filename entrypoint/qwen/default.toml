@@ -292,13 +292,6 @@ input_per_million = 0.4
 output_per_million = 3.2
 
 [[entrypoint.models]]
-id = "qwen3-coder"
-
-[entrypoint.models.pricing]
-input_per_million = 0.38
-output_per_million = 1.55
-
-[[entrypoint.models]]
 id = "qwen-2.5-72b-instruct"
 
 [entrypoint.models.pricing]
@@ -333,6 +326,14 @@ id = "qwen3-235b-a22b-thinking-2507"
 [entrypoint.models.pricing]
 input_per_million = 0.3
 output_per_million = 3.0
+
+[[entrypoint.models]]
+id = "qwen3-coder"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 1.0
+cached_per_million = 0.1
 
 [[entrypoint.models]]
 id = "qwen3.5-27b"
