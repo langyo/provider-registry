@@ -17,7 +17,7 @@ tags = ["coding", "cost_effective"]
 [model.pricing]
 input_per_million = 0.25
 output_per_million = 2.0
-cached_per_million = 0.025
+cached_per_million = 0.03
 
 [model.score]
 value = 39.85
