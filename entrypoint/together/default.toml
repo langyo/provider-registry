@@ -66,6 +66,14 @@ input_per_million = 3.0
 output_per_million = 7.0
 
 [[entrypoint.models]]
+id = "moonshotai/Kimi-K3"
+
+[entrypoint.models.pricing]
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
+
+[[entrypoint.models]]
 id = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
 
 [entrypoint.models.pricing]
