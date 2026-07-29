@@ -286,6 +286,20 @@ input_per_million = 0.43
 output_per_million = 2.58
 
 [[entrypoint.models]]
+id = "qwen-plus-2025-07-28:thinking"
+
+[entrypoint.models.pricing]
+input_per_million = 0.4
+output_per_million = 1.2
+
+[[entrypoint.models]]
+id = "qwen3-vl-235b-a22b-thinking"
+
+[entrypoint.models.pricing]
+input_per_million = 0.4
+output_per_million = 4.0
+
+[[entrypoint.models]]
 id = "qwen3.5-122b-a10b"
 
 [entrypoint.models.pricing]
@@ -380,20 +394,6 @@ output_per_million = 0.431
 
 [[entrypoint.models]]
 id = "qwen-math-turbo"
-
-[entrypoint.models.pricing]
-input_per_million = 0.287
-output_per_million = 0.861
-
-[[entrypoint.models]]
-id = "qwen2-5-32b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.287
-output_per_million = 0.861
-
-[[entrypoint.models]]
-id = "qwen2-5-coder-32b-instruct"
 
 [entrypoint.models.pricing]
 input_per_million = 0.287
