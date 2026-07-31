@@ -6,7 +6,7 @@ id = "thedrummer/unslopnemo-12b"
 name = "UnslopNemo 12B"
 provider_id = "openrouter"
 
-context_window = 32768
+context_window = 1024000
 max_output_tokens = 32768
 supports_vision = false
 supports_function_calling = true
