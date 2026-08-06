@@ -1,0 +1,20 @@
+# Ling-3.0-flash
+# Provider: openrouter
+
+[model]
+id = "inclusionai/ling-3.0-flash"
+name = "Ling-3.0-flash"
+provider_id = "openrouter"
+
+context_window = 131072
+max_output_tokens = 16384
+supports_vision = false
+supports_function_calling = true
+supports_streaming = true
+supports_reasoning = true
+tags = ["cost_effective"]
+
+[model.pricing]
+input_per_million = 0.075
+output_per_million = 0.22
+cached_per_million = 0.015
