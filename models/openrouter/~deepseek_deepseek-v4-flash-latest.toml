@@ -7,7 +7,7 @@ name = "DeepSeek V4 Flash Latest"
 provider_id = "openrouter"
 
 context_window = 1048576
-max_output_tokens = 65536
+max_output_tokens = 384000
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
