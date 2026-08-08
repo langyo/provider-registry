@@ -7,7 +7,7 @@ name = "Weaver (alpha)"
 provider_id = "openrouter"
 
 context_window = 8000
-max_output_tokens = 2000
+max_output_tokens = 6000
 supports_vision = false
 supports_function_calling = false
 supports_streaming = true
