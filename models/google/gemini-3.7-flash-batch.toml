@@ -1,9 +1,9 @@
-# Gemini 3.6 Flash (batch)
+# Gemini 3.7 Flash (batch)
 # Provider: google
 
 [model]
-id = "gemini-3.6-flash:batch"
-name = "Gemini 3.6 Flash (batch)"
+id = "gemini-3.7-flash:batch"
+name = "Gemini 3.7 Flash (batch)"
 provider_id = "google"
 
 context_window = 1048576
@@ -15,10 +15,6 @@ supports_reasoning = false
 tags = ["cost_effective"]
 
 [model.pricing]
-input_per_million = 0.38
-output_per_million = 1.88
-cached_per_million = 0.0375
-
-[model.score]
-value = 60.22
-source = "design_arena"
+input_per_million = 0.19
+output_per_million = 0.94
+cached_per_million = 0.0187
