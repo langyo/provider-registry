@@ -159,7 +159,6 @@ id = "devstral-2512"
 [entrypoint.models.pricing]
 input_per_million = 0.4
 output_per_million = 2.0
-cached_per_million = 0.04
 
 [[entrypoint.models]]
 id = "devstral-latest"
@@ -367,14 +366,6 @@ output_per_million = 0.1
 cached_per_million = 0.01
 
 [[entrypoint.models]]
-id = "mistral-small-3.2-24b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.1
-output_per_million = 0.3
-cached_per_million = 0.01
-
-[[entrypoint.models]]
 id = "mistral-small-creative"
 
 [entrypoint.models.pricing]
@@ -391,15 +382,22 @@ output_per_million = 0.3
 cached_per_million = 0.01
 
 [[entrypoint.models]]
+id = "voxtral-small-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.1
+output_per_million = 0.3
+
+[[entrypoint.models]]
+id = "mistral-small-3.2-24b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.09
+output_per_million = 0.25
+
+[[entrypoint.models]]
 id = "mistral-small-24b-instruct-2501"
 
 [entrypoint.models.pricing]
 input_per_million = 0.05
 output_per_million = 0.08
-
-[[entrypoint.models]]
-id = "ministral-3b-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 0.04
-output_per_million = 0.04

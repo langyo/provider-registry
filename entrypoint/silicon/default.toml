@@ -42,6 +42,7 @@ id = "zai-org/GLM-5.2"
 [entrypoint.models.pricing]
 input_per_million = 1.4
 output_per_million = 4.4
+cached_per_million = 0.26
 
 [[entrypoint.models]]
 id = "Pro/zai-org/GLM-5.1"
@@ -49,6 +50,7 @@ id = "Pro/zai-org/GLM-5.1"
 [entrypoint.models.pricing]
 input_per_million = 1.4
 output_per_million = 4.4
+cached_per_million = 0.26
 
 [[entrypoint.models]]
 id = "zai-org/GLM-5.1"
@@ -56,6 +58,7 @@ id = "zai-org/GLM-5.1"
 [entrypoint.models.pricing]
 input_per_million = 1.4
 output_per_million = 4.4
+cached_per_million = 0.26
 
 [[entrypoint.models]]
 id = "zai-org/GLM-5V-Turbo"
@@ -63,6 +66,7 @@ id = "zai-org/GLM-5V-Turbo"
 [entrypoint.models.pricing]
 input_per_million = 1.2
 output_per_million = 4.0
+cached_per_million = 0.24
 
 [[entrypoint.models]]
 id = "Pro/zai-org/GLM-5"
@@ -77,6 +81,7 @@ id = "zai-org/GLM-5"
 [entrypoint.models.pricing]
 input_per_million = 0.95
 output_per_million = 2.55
+cached_per_million = 0.2
 
 [[entrypoint.models]]
 id = "deepseek-ai/DeepSeek-V4-Pro"
@@ -185,6 +190,7 @@ id = "moonshotai/Kimi-K2.5"
 [entrypoint.models.pricing]
 input_per_million = 0.45
 output_per_million = 2.25
+cached_per_million = 0.07
 
 [[entrypoint.models]]
 id = "Pro/moonshotai/Kimi-K2.5"
@@ -192,6 +198,7 @@ id = "Pro/moonshotai/Kimi-K2.5"
 [entrypoint.models.pricing]
 input_per_million = 0.45
 output_per_million = 2.25
+cached_per_million = 0.07
 
 [[entrypoint.models]]
 id = "Qwen/Qwen3-VL-235B-A22B-Thinking"
@@ -234,6 +241,7 @@ id = "MiniMaxAI/MiniMax-M2.5"
 [entrypoint.models.pricing]
 input_per_million = 0.3
 output_per_million = 1.2
+cached_per_million = 0.03
 
 [[entrypoint.models]]
 id = "Pro/MiniMaxAI/MiniMax-M2.1"

@@ -42,6 +42,7 @@ id = "zai-org/GLM-5.1"
 [entrypoint.models.pricing]
 input_per_million = 1.4
 output_per_million = 4.4
+cached_per_million = 0.26
 
 [[entrypoint.models]]
 id = "zai-org/GLM-5.2"
@@ -64,6 +65,14 @@ id = "deepseek-ai/DeepSeek-R1"
 [entrypoint.models.pricing]
 input_per_million = 3.0
 output_per_million = 7.0
+
+[[entrypoint.models]]
+id = "moonshotai/Kimi-K3"
+
+[entrypoint.models.pricing]
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8"
@@ -100,6 +109,7 @@ id = "Qwen/Qwen3.7-Max"
 [entrypoint.models.pricing]
 input_per_million = 1.25
 output_per_million = 3.75
+cached_per_million = 0.125
 
 [[entrypoint.models]]
 id = "moonshotai/Kimi-K2.6"
@@ -115,6 +125,14 @@ id = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 [entrypoint.models.pricing]
 input_per_million = 1.04
 output_per_million = 1.04
+
+[[entrypoint.models]]
+id = "thinkingmachines/Inkling"
+
+[entrypoint.models.pricing]
+input_per_million = 1.0
+output_per_million = 4.05
+cached_per_million = 0.17
 
 [[entrypoint.models]]
 id = "moonshotai/Kimi-K2.7-Code"
@@ -145,6 +163,7 @@ id = "Qwen/Qwen3.5-397B-A17B"
 [entrypoint.models.pricing]
 input_per_million = 0.6
 output_per_million = 3.6
+cached_per_million = 0.35
 
 [[entrypoint.models]]
 id = "moonshotai/Kimi-K2.5"
@@ -239,6 +258,14 @@ id = "essentialai/Rnj-1-Instruct"
 [entrypoint.models.pricing]
 input_per_million = 0.15
 output_per_million = 0.15
+
+[[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-V4-Flash-0731"
+
+[entrypoint.models.pricing]
+input_per_million = 0.14
+output_per_million = 0.28
+cached_per_million = 0.03
 
 [[entrypoint.models]]
 id = "meta-llama/Meta-Llama-3-8B-Instruct-Lite"

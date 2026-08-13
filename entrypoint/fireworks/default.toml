@@ -29,7 +29,7 @@ ru = "Fireworks AI"
 [entrypoint.defaults]
 deep = "accounts/fireworks/routers/glm-5p1-fast"
 normal = "accounts/fireworks/routers/glm-5p2-fast"
-basic = "accounts/fireworks/models/minimax-m3"
+basic = "accounts/fireworks/models/minimax-m2p7"
 
 [entrypoint.defaults.max_concurrent]
 deep = 1
@@ -67,6 +67,22 @@ id = "accounts/fireworks/models/glm-5p2"
 input_per_million = 1.4
 output_per_million = 4.4
 cached_per_million = 0.14
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/kimi-k3-fast"
+
+[entrypoint.models.pricing]
+input_per_million = 4.5
+output_per_million = 22.5
+cached_per_million = 0.45
+
+[[entrypoint.models]]
+id = "accounts/fireworks/models/kimi-k3"
+
+[entrypoint.models.pricing]
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "accounts/fireworks/routers/kimi-k2p6-fast"
@@ -150,6 +166,14 @@ cached_per_million = 0.015
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/deepseek-v4-flash"
+
+[entrypoint.models.pricing]
+input_per_million = 0.14
+output_per_million = 0.28
+cached_per_million = 0.028
+
+[[entrypoint.models]]
+id = "accounts/fireworks/models/deepseek-v4-flash-0731"
 
 [entrypoint.models.pricing]
 input_per_million = 0.14
