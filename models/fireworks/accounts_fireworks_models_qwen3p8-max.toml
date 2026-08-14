@@ -1,14 +1,14 @@
 # Qwen3.8 Max
-# Provider: qwen
+# Provider: fireworks
 
 [model]
-id = "qwen3.8-max"
+id = "accounts/fireworks/models/qwen3p8-max"
 name = "Qwen3.8 Max"
-provider_id = "qwen"
+provider_id = "fireworks"
 
-context_window = 1000000
+context_window = 262144
 max_output_tokens = 131072
-supports_vision = true
+supports_vision = false
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
@@ -18,7 +18,3 @@ tags = []
 input_per_million = 2.0
 output_per_million = 6.0
 cached_per_million = 0.25
-
-[model.score]
-value = 71.8
-source = "artificial_analysis"
