@@ -1,10 +1,10 @@
 # DeepSeek V4 Pro 0813
-# Provider: openrouter
+# Provider: together
 
 [model]
-id = "deepseek/deepseek-v4-pro-0813"
+id = "deepseek-ai/DeepSeek-V4-Pro-0813"
 name = "DeepSeek V4 Pro 0813"
-provider_id = "openrouter"
+provider_id = "together"
 
 context_window = 1048576
 max_output_tokens = 384000
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["vision"]
 
 [model.pricing]
-input_per_million = 0.66
-output_per_million = 1.98
-cached_per_million = 0.022
+input_per_million = 1.32
+output_per_million = 3.96
+cached_per_million = 0.13

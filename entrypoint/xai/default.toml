@@ -192,6 +192,9 @@ cached_per_million = 0.02
 id = "grok-imagine-image"
 
 [[entrypoint.models]]
+id = "grok-imagine-image-2.0"
+
+[[entrypoint.models]]
 id = "grok-imagine-image-quality"
 
 [[entrypoint.models]]
