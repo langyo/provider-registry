@@ -6,7 +6,7 @@ id = "deepseek/deepseek-v4-flash-0731"
 name = "DeepSeek V4 Flash 0731"
 provider_id = "openrouter"
 
-context_window = 1048576
+context_window = 1310720
 max_output_tokens = 393216
 supports_vision = false
 supports_function_calling = true
