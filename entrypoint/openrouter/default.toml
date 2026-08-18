@@ -90,14 +90,6 @@ output_per_million = 4.0
 cached_per_million = 0.24
 
 [[entrypoint.models]]
-id = "z-ai/glm-5.2"
-
-[entrypoint.models.pricing]
-input_per_million = 1.19
-output_per_million = 3.74
-cached_per_million = 0.221
-
-[[entrypoint.models]]
 id = "z-ai/glm-5.1"
 
 [entrypoint.models.pricing]
@@ -120,6 +112,14 @@ id = "z-ai/glm-5"
 input_per_million = 0.6
 output_per_million = 1.92
 cached_per_million = 0.12
+
+[[entrypoint.models]]
+id = "z-ai/glm-5.2"
+
+[entrypoint.models.pricing]
+input_per_million = 0.462
+output_per_million = 1.452
+cached_per_million = 0.0858
 
 [[entrypoint.models]]
 id = "openai/gpt-5.4-nano"
@@ -325,30 +325,6 @@ output_per_million = 30.0
 cached_per_million = 0.5
 
 [[entrypoint.models]]
-id = "openai/gpt-5.6-sol"
-
-[entrypoint.models.pricing]
-input_per_million = 5.0
-output_per_million = 30.0
-cached_per_million = 0.5
-
-[[entrypoint.models]]
-id = "openai/gpt-5.6-sol-pro"
-
-[entrypoint.models.pricing]
-input_per_million = 5.0
-output_per_million = 30.0
-cached_per_million = 0.5
-
-[[entrypoint.models]]
-id = "~openai/gpt-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 5.0
-output_per_million = 30.0
-cached_per_million = 0.5
-
-[[entrypoint.models]]
 id = "aion-labs/aion-1.0"
 
 [entrypoint.models.pricing]
@@ -422,3 +398,25 @@ id = "perplexity/sonar-pro-search"
 [entrypoint.models.pricing]
 input_per_million = 3.0
 output_per_million = 15.0
+
+[[entrypoint.models]]
+id = "~moonshotai/kimi-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 2.6
+output_per_million = 13.0
+cached_per_million = 0.29
+
+[[entrypoint.models]]
+id = "cohere/command-a"
+
+[entrypoint.models.pricing]
+input_per_million = 2.5
+output_per_million = 10.0
+
+[[entrypoint.models]]
+id = "cohere/command-r-plus-08-2024"
+
+[entrypoint.models.pricing]
+input_per_million = 2.5
+output_per_million = 10.0
