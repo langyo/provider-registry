@@ -77,6 +77,14 @@ output_per_million = 4.0
 cached_per_million = 0.19
 
 [[entrypoint.models]]
+id = "kimi-k2.7-code:batch"
+
+[entrypoint.models.pricing]
+input_per_million = 0.95
+output_per_million = 4.0
+cached_per_million = 0.19
+
+[[entrypoint.models]]
 id = "kimi-k2-0905"
 
 [entrypoint.models.pricing]
@@ -105,11 +113,3 @@ id = "kimi-k2"
 [entrypoint.models.pricing]
 input_per_million = 0.57
 output_per_million = 2.3
-
-[[entrypoint.models]]
-id = "kimi-k2.7-code:batch"
-
-[entrypoint.models.pricing]
-input_per_million = 0.47
-output_per_million = 2.0
-cached_per_million = 0.095

@@ -1,12 +1,12 @@
 # GLM-5.3
-# Provider: zhipu_glm
+# Provider: openrouter
 
 [model]
-id = "glm-5.3"
+id = "z-ai/glm-5.3"
 name = "GLM-5.3"
-provider_id = "zhipu_glm"
+provider_id = "openrouter"
 
-context_window = 1000000
+context_window = 1048576
 max_output_tokens = 131072
 supports_vision = false
 supports_function_calling = true
