@@ -28,7 +28,7 @@ es = "GLM Internacional Plan Coding Lite"
 ru = "GLM Международный План Coding Lite"
 
 [entrypoint.defaults]
-deep = "glm-5.2"
+deep = "glm-5.3"
 normal = "glm-5"
 
 [entrypoint.defaults.max_concurrent]
@@ -37,7 +37,7 @@ normal = 1
 basic = 2
 
 [[entrypoint.models]]
-id = "glm-5.2"
+id = "glm-5.3"
 
 [entrypoint.models.pricing]
 input_per_million = 1.4

@@ -6,7 +6,7 @@ id = "deepseek/deepseek-v3.1-terminus"
 name = "DeepSeek V3.1 Terminus"
 provider_id = "openrouter"
 
-context_window = 131072
+context_window = 163840
 max_output_tokens = 32768
 supports_vision = false
 supports_function_calling = true
