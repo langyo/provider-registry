@@ -395,13 +395,6 @@ input_per_million = 3.0
 output_per_million = 3.0
 
 [[entrypoint.models]]
-id = "anthracite-org/magnum-v4-72b"
-
-[entrypoint.models.pricing]
-input_per_million = 3.0
-output_per_million = 5.0
-
-[[entrypoint.models]]
 id = "perplexity/sonar-pro"
 
 [entrypoint.models.pricing]
@@ -422,3 +415,10 @@ id = "~moonshotai/kimi-latest"
 input_per_million = 2.55
 output_per_million = 12.75
 cached_per_million = 0.256
+
+[[entrypoint.models]]
+id = "cohere/command-a"
+
+[entrypoint.models.pricing]
+input_per_million = 2.5
+output_per_million = 10.0
