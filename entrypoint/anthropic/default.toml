@@ -165,6 +165,14 @@ output_per_million = 25.0
 cached_per_million = 0.5
 
 [[entrypoint.models]]
+id = "claude-fable-5.1:batch"
+
+[entrypoint.models.pricing]
+input_per_million = 5.0
+output_per_million = 25.0
+cached_per_million = 0.125
+
+[[entrypoint.models]]
 id = "claude-opus-4-5-20251101"
 
 [entrypoint.models.pricing]
@@ -427,11 +435,3 @@ id = "claude-3.5-haiku"
 input_per_million = 0.8
 output_per_million = 4.0
 cached_per_million = 0.08
-
-[[entrypoint.models]]
-id = "claude-haiku-4.5:batch"
-
-[entrypoint.models.pricing]
-input_per_million = 0.5
-output_per_million = 2.5
-cached_per_million = 0.05
