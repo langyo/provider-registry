@@ -7,7 +7,7 @@ name = "DeepSeek V4 Pro"
 provider_id = "openrouter"
 
 context_window = 1048576
-max_output_tokens = 393216
+max_output_tokens = 384000
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["vision"]
 
 [model.pricing]
-input_per_million = 1.6
-output_per_million = 3.2
-cached_per_million = 0.135
+input_per_million = 1.0242
+output_per_million = 2.0483
+cached_per_million = 0.085347

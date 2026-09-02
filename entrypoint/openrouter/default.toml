@@ -222,12 +222,20 @@ output_per_million = 50.0
 cached_per_million = 1.0
 
 [[entrypoint.models]]
+id = "anthropic/claude-fable-5.1"
+
+[entrypoint.models.pricing]
+input_per_million = 10.0
+output_per_million = 50.0
+cached_per_million = 0.25
+
+[[entrypoint.models]]
 id = "~anthropic/claude-fable-latest"
 
 [entrypoint.models.pricing]
 input_per_million = 10.0
 output_per_million = 50.0
-cached_per_million = 1.0
+cached_per_million = 0.25
 
 [[entrypoint.models]]
 id = "anthropic/claude-opus-4.8-fast"
@@ -415,10 +423,3 @@ id = "~moonshotai/kimi-latest"
 input_per_million = 2.55
 output_per_million = 12.75
 cached_per_million = 0.256
-
-[[entrypoint.models]]
-id = "cohere/command-a"
-
-[entrypoint.models.pricing]
-input_per_million = 2.5
-output_per_million = 10.0
