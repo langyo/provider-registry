@@ -91,6 +91,13 @@ output_per_million = 1.2
 cached_per_million = 0.2
 
 [[entrypoint.models]]
+id = "deepseek-chat"
+
+[entrypoint.models.pricing]
+input_per_million = 0.32
+output_per_million = 0.89
+
+[[entrypoint.models]]
 id = "deepseek-r1-distill-qwen-32b"
 
 [entrypoint.models.pricing]
@@ -119,13 +126,6 @@ id = "deepseek-v3.2-exp"
 [entrypoint.models.pricing]
 input_per_million = 0.27
 output_per_million = 0.41
-
-[[entrypoint.models]]
-id = "deepseek-chat"
-
-[entrypoint.models.pricing]
-input_per_million = 0.26
-output_per_million = 1.03
 
 [[entrypoint.models]]
 id = "deepseek-chat-v3-0324"
