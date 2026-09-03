@@ -7,7 +7,7 @@ name = "GLM Latest"
 provider_id = "openrouter"
 
 context_window = 1310720
-max_output_tokens = 235929
+max_output_tokens = 943718
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 1.15
-output_per_million = 3.5
-cached_per_million = 0.1
+input_per_million = 1.092
+output_per_million = 3.432
+cached_per_million = 0.1794
