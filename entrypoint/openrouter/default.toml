@@ -417,9 +417,8 @@ input_per_million = 3.0
 output_per_million = 15.0
 
 [[entrypoint.models]]
-id = "~moonshotai/kimi-latest"
+id = "cohere/command-a"
 
 [entrypoint.models.pricing]
-input_per_million = 2.55
-output_per_million = 12.75
-cached_per_million = 0.256
+input_per_million = 2.5
+output_per_million = 10.0

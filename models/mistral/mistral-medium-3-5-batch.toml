@@ -6,8 +6,8 @@ id = "mistral-medium-3-5:batch"
 name = "Mistral: Mistral Medium 3.5 (batch)"
 provider_id = "mistral"
 
-context_window = 262144
-max_output_tokens = 16384
+context_window = 32768
+max_output_tokens = 8192
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
