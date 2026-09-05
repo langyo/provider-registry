@@ -192,6 +192,22 @@ output_per_million = 10.0
 cached_per_million = 1.25
 
 [[entrypoint.models]]
+id = "gpt-6-astra"
+
+[entrypoint.models.pricing]
+input_per_million = 10.0
+output_per_million = 50.0
+cached_per_million = 1.0
+
+[[entrypoint.models]]
+id = "gpt-6-astra-pro"
+
+[entrypoint.models.pricing]
+input_per_million = 10.0
+output_per_million = 50.0
+cached_per_million = 1.0
+
+[[entrypoint.models]]
 id = "o3-deep-research"
 
 [entrypoint.models.pricing]
@@ -220,6 +236,22 @@ id = "gpt-5.5"
 [entrypoint.models.pricing]
 input_per_million = 5.0
 output_per_million = 30.0
+cached_per_million = 0.5
+
+[[entrypoint.models]]
+id = "gpt-6-astra:batch"
+
+[entrypoint.models.pricing]
+input_per_million = 5.0
+output_per_million = 25.0
+cached_per_million = 0.5
+
+[[entrypoint.models]]
+id = "gpt-6-astra-pro:batch"
+
+[entrypoint.models.pricing]
+input_per_million = 5.0
+output_per_million = 25.0
 cached_per_million = 0.5
 
 [[entrypoint.models]]
@@ -388,35 +420,3 @@ id = "gpt-5.3-chat"
 input_per_million = 1.75
 output_per_million = 14.0
 cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-5.3-chat-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 1.75
-output_per_million = 14.0
-cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-5.3-codex"
-
-[entrypoint.models.pricing]
-input_per_million = 1.75
-output_per_million = 14.0
-cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-5.3-codex-spark"
-
-[entrypoint.models.pricing]
-input_per_million = 1.75
-output_per_million = 14.0
-cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-4o:batch"
-
-[entrypoint.models.pricing]
-input_per_million = 1.25
-output_per_million = 5.0
-cached_per_million = 0.625

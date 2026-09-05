@@ -1,9 +1,9 @@
-# Ling-3.0-flash
+# Ling 3.0 Flash
 # Provider: openrouter
 
 [model]
 id = "inclusionai/ling-3.0-flash"
-name = "Ling-3.0-flash"
+name = "Ling 3.0 Flash"
 provider_id = "openrouter"
 
 context_window = 262144
