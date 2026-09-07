@@ -48,9 +48,9 @@ cached_per_million = 0.13
 id = "deepseek-v4-pro-0813"
 
 [entrypoint.models.pricing]
-input_per_million = 1.12
-output_per_million = 3.35
-cached_per_million = 0.0372
+input_per_million = 1.05
+output_per_million = 3.15
+cached_per_million = 0.035
 
 [[entrypoint.models]]
 id = "deepseek-r1-distill-llama-70b"
