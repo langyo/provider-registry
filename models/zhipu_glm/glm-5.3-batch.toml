@@ -1,24 +1,24 @@
-# GLM 5.3 Flash (batch)
+# GLM 5.3 (batch)
 # Provider: zhipu_glm
 
 [model]
-id = "glm-5.3-flash:batch"
-name = "GLM 5.3 Flash (batch)"
+id = "glm-5.3:batch"
+name = "GLM 5.3 (batch)"
 provider_id = "zhipu_glm"
 
 context_window = 1048576
 max_output_tokens = 16384
-supports_vision = true
+supports_vision = false
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = false
-tags = ["flagship", "cost_effective"]
+tags = ["flagship"]
 
 [model.pricing]
-input_per_million = 0.07
-output_per_million = 0.25
-cached_per_million = 0.015
+input_per_million = 0.7
+output_per_million = 2.2
+cached_per_million = 0.13
 
 [model.score]
-value = 71.5
+value = 74.8
 source = "artificial_analysis"
