@@ -1,12 +1,12 @@
-# GLM 5.3
+# GLM 5.3 Fast
 # Provider: fireworks
 
 [model]
-id = "accounts/fireworks/models/glm-5p3"
-name = "GLM 5.3"
+id = "accounts/fireworks/routers/glm-5p3-fast"
+name = "GLM 5.3 Fast"
 provider_id = "fireworks"
 
-context_window = 1048573
+context_window = 1048572
 max_output_tokens = 262144
 supports_vision = false
 supports_function_calling = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["flagship"]
 
 [model.pricing]
-input_per_million = 1.4
-output_per_million = 4.4
-cached_per_million = 0.26
+input_per_million = 2.1
+output_per_million = 6.6
+cached_per_million = 0.39
