@@ -7,7 +7,7 @@ name = "GLM Flash Latest"
 provider_id = "openrouter"
 
 context_window = 1310720
-max_output_tokens = 131072
+max_output_tokens = 943718
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["cost_effective"]
 
 [model.pricing]
-input_per_million = 0.0712
-output_per_million = 0.2375
-cached_per_million = 0.01425
+input_per_million = 0.075
+output_per_million = 0.25
+cached_per_million = 0.015
