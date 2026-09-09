@@ -64,7 +64,7 @@ id = "deepseek-v4-pro-0813"
 [entrypoint.models.pricing]
 input_per_million = 0.58
 output_per_million = 1.74
-cached_per_million = 0.0579
+cached_per_million = 0.0184
 
 [[entrypoint.models]]
 id = "deepseek-r1-0528"
