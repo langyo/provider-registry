@@ -1,9 +1,9 @@
-# DeepSeek V4 Flash Vision Exp
+# DeepSeek V4.1 Flash
 # Provider: deepseek
 
 [model]
-id = "deepseek-v4-flash-vision-exp"
-name = "DeepSeek V4 Flash Vision Exp"
+id = "deepseek-flash"
+name = "DeepSeek V4.1 Flash"
 provider_id = "deepseek"
 
 context_window = 1000000
@@ -12,7 +12,7 @@ supports_vision = true
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
-tags = ["vision", "cost_effective"]
+tags = ["cost_effective"]
 
 [model.pricing]
 input_per_million = 0.15

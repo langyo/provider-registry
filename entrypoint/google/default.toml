@@ -291,13 +291,6 @@ input_per_million = 0.07
 output_per_million = 0.3
 
 [[entrypoint.models]]
-id = "gemma-4-26b-a4b-it"
-
-[entrypoint.models.pricing]
-input_per_million = 0.07
-output_per_million = 0.34
-
-[[entrypoint.models]]
 id = "gemma-3n-e4b-it"
 
 [entrypoint.models.pricing]
@@ -325,6 +318,13 @@ id = "gemma-3-4b-it"
 [entrypoint.models.pricing]
 input_per_million = 0.05
 output_per_million = 0.1
+
+[[entrypoint.models]]
+id = "gemma-4-26b-a4b-it"
+
+[entrypoint.models.pricing]
+input_per_million = 0.04
+output_per_million = 0.22
 
 [[entrypoint.models]]
 id = "gemma-2-9b-it"
