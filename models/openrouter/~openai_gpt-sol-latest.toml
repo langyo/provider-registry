@@ -1,9 +1,9 @@
-# OpenAI GPT Sol Latest
+# GPT Sol Latest
 # Provider: openrouter
 
 [model]
 id = "~openai/gpt-sol-latest"
-name = "OpenAI GPT Sol Latest"
+name = "GPT Sol Latest"
 provider_id = "openrouter"
 
 context_window = 1050000

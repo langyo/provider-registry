@@ -1,9 +1,9 @@
-# OpenAI GPT Luna Latest
+# GPT Luna Latest
 # Provider: openrouter
 
 [model]
 id = "~openai/gpt-luna-latest"
-name = "OpenAI GPT Luna Latest"
+name = "GPT Luna Latest"
 provider_id = "openrouter"
 
 context_window = 1050000

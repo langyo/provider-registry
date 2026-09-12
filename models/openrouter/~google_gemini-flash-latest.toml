@@ -1,9 +1,9 @@
-# Google Gemini Flash Latest
+# Gemini Flash Latest
 # Provider: openrouter
 
 [model]
 id = "~google/gemini-flash-latest"
-name = "Google Gemini Flash Latest"
+name = "Gemini Flash Latest"
 provider_id = "openrouter"
 
 context_window = 1048576
