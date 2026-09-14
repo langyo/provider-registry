@@ -1,9 +1,9 @@
-# DeepSeek V4 Pro 0813
+# DeepSeek Pro Latest
 # Provider: openrouter
 
 [model]
-id = "deepseek/deepseek-v4-pro-0813"
-name = "DeepSeek V4 Pro 0813"
+id = "~deepseek/deepseek-pro-latest"
+name = "DeepSeek Pro Latest"
 provider_id = "openrouter"
 
 context_window = 1048576
@@ -12,7 +12,7 @@ supports_vision = false
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
-tags = ["vision"]
+tags = []
 
 [model.pricing]
 input_per_million = 0.5795
