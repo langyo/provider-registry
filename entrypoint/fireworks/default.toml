@@ -93,6 +93,14 @@ output_per_million = 0.5
 cached_per_million = 0.03
 
 [[entrypoint.models]]
+id = "accounts/fireworks/routers/kimi-fast-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 4.5
+output_per_million = 22.5
+cached_per_million = 0.45
+
+[[entrypoint.models]]
 id = "accounts/fireworks/routers/kimi-k3-fast"
 
 [entrypoint.models.pricing]
@@ -107,6 +115,22 @@ id = "accounts/fireworks/models/kimi-k3"
 input_per_million = 3.0
 output_per_million = 15.0
 cached_per_million = 0.3
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/kimi-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/glm-fast-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 2.1
+output_per_million = 6.6
+cached_per_million = 0.39
 
 [[entrypoint.models]]
 id = "accounts/fireworks/routers/kimi-k2p6-fast"
@@ -149,12 +173,20 @@ output_per_million = 8.0
 cached_per_million = 0.38
 
 [[entrypoint.models]]
-id = "accounts/fireworks/models/deepseek-v4-pro"
+id = "accounts/fireworks/routers/glm-latest"
 
 [entrypoint.models.pricing]
-input_per_million = 1.74
-output_per_million = 3.48
-cached_per_million = 0.145
+input_per_million = 1.4
+output_per_million = 4.4
+cached_per_million = 0.26
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/deepseek-pro-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 1.32
+output_per_million = 3.96
+cached_per_million = 0.044
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/deepseek-v4-pro-0813"
@@ -213,12 +245,20 @@ output_per_million = 1.5
 cached_per_million = 0.04
 
 [[entrypoint.models]]
-id = "accounts/fireworks/models/minimax-m2p7"
+id = "accounts/fireworks/routers/minimax-latest"
 
 [entrypoint.models.pricing]
 input_per_million = 0.3
 output_per_million = 1.2
 cached_per_million = 0.06
+
+[[entrypoint.models]]
+id = "accounts/fireworks/models/minimax-m2p7"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 1.2
+cached_per_million = 0.059
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/minimax-m3"
@@ -227,6 +267,14 @@ id = "accounts/fireworks/models/minimax-m3"
 input_per_million = 0.3
 output_per_million = 1.2
 cached_per_million = 0.06
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/deepseek-flash-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.22
+output_per_million = 0.66
+cached_per_million = 0.007
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/deepseek-v4-flash-0731"
@@ -251,6 +299,14 @@ id = "accounts/fireworks/models/deepseek-v4p1-flash"
 input_per_million = 0.22
 output_per_million = 0.66
 cached_per_million = 0.007
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/glm-flash-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.15
+output_per_million = 0.5
+cached_per_million = 0.03
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/gpt-oss-120b"
@@ -283,6 +339,9 @@ id = "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b"
 input_per_million = 0.05
 output_per_million = 0.2
 cached_per_million = 0.01
+
+[[entrypoint.models]]
+id = "accounts/fireworks/models/deepseek-v4-pro"
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/mistral-large-3-fp8"
