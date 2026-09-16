@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["vision", "cost_effective"]
 
 [model.pricing]
-input_per_million = 0.055
-output_per_million = 0.11
-cached_per_million = 0.011
+input_per_million = 0.06
+output_per_million = 0.12
+cached_per_million = 0.012
