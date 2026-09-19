@@ -7,7 +7,7 @@ name = "DeepSeek V4 Flash Latest"
 provider_id = "openrouter"
 
 context_window = 1310720
-max_output_tokens = 384000
+max_output_tokens = 943718
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["vision", "cost_effective"]
 
 [model.pricing]
-input_per_million = 0.0484
-output_per_million = 0.1452
-cached_per_million = 0.00154
+input_per_million = 0.04
+output_per_million = 0.08
+cached_per_million = 0.016
