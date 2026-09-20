@@ -392,9 +392,9 @@ input_per_million = 0.43
 output_per_million = 1.66
 
 [[entrypoint.models]]
-id = "qwen3.8-27b"
+id = "qwen-plus"
 
 [entrypoint.models.pricing]
-input_per_million = 0.42
-output_per_million = 3.0
-cached_per_million = 0.085
+input_per_million = 0.4
+output_per_million = 1.2
+cached_per_million = 0.052
