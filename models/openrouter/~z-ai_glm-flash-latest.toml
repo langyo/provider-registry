@@ -7,7 +7,7 @@ name = "GLM Flash Latest"
 provider_id = "openrouter"
 
 context_window = 1310720
-max_output_tokens = 131072
+max_output_tokens = 943718
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
