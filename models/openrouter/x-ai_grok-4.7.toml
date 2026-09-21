@@ -1,13 +1,13 @@
-# Qwen3.8 27B
+# Grok 4.7
 # Provider: openrouter
 
 [model]
-id = "qwen/qwen3.8-27b"
-name = "Qwen3.8 27B"
+id = "x-ai/grok-4.7"
+name = "Grok 4.7"
 provider_id = "openrouter"
 
-context_window = 1000000
-max_output_tokens = 131072
+context_window = 500000
+max_output_tokens = 450000
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 0.42
-output_per_million = 3.0
-cached_per_million = 0.085
+input_per_million = 1.6
+output_per_million = 4.8
+cached_per_million = 0.4
