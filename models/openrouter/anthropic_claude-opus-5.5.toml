@@ -1,9 +1,9 @@
-# Claude Opus Latest
+# Claude Opus 5.5
 # Provider: openrouter
 
 [model]
-id = "~anthropic/claude-opus-latest"
-name = "Claude Opus Latest"
+id = "anthropic/claude-opus-5.5"
+name = "Claude Opus 5.5"
 provider_id = "openrouter"
 
 context_window = 1000000

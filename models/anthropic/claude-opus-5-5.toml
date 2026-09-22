@@ -1,10 +1,10 @@
-# Claude Opus Latest
-# Provider: openrouter
+# Claude Opus 5.5
+# Provider: anthropic
 
 [model]
-id = "~anthropic/claude-opus-latest"
-name = "Claude Opus Latest"
-provider_id = "openrouter"
+id = "claude-opus-5-5"
+name = "Claude Opus 5.5"
+provider_id = "anthropic"
 
 context_window = 1000000
 max_output_tokens = 128000

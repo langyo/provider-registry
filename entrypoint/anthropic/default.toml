@@ -253,6 +253,22 @@ output_per_million = 25.0
 cached_per_million = 0.5
 
 [[entrypoint.models]]
+id = "claude-opus-5-5"
+
+[entrypoint.models.pricing]
+input_per_million = 4.0
+output_per_million = 20.0
+cached_per_million = 0.2
+
+[[entrypoint.models]]
+id = "claude-opus-5.5"
+
+[entrypoint.models.pricing]
+input_per_million = 4.0
+output_per_million = 20.0
+cached_per_million = 0.2
+
+[[entrypoint.models]]
 id = "claude-3.7-sonnet"
 
 [entrypoint.models.pricing]
@@ -373,6 +389,14 @@ output_per_million = 12.5
 cached_per_million = 0.25
 
 [[entrypoint.models]]
+id = "claude-opus-5.5:batch"
+
+[entrypoint.models.pricing]
+input_per_million = 2.0
+output_per_million = 10.0
+cached_per_million = 0.1
+
+[[entrypoint.models]]
 id = "claude-sonnet-5"
 
 [entrypoint.models.pricing]
@@ -411,27 +435,3 @@ id = "claude-haiku-4.5"
 input_per_million = 1.0
 output_per_million = 5.0
 cached_per_million = 0.1
-
-[[entrypoint.models]]
-id = "claude-haiku-4-5"
-
-[entrypoint.models.pricing]
-input_per_million = 1.0
-output_per_million = 5.0
-cached_per_million = 0.1
-
-[[entrypoint.models]]
-id = "claude-sonnet-5:batch"
-
-[entrypoint.models.pricing]
-input_per_million = 1.0
-output_per_million = 5.0
-cached_per_million = 0.1
-
-[[entrypoint.models]]
-id = "claude-3.5-haiku"
-
-[entrypoint.models.pricing]
-input_per_million = 0.8
-output_per_million = 4.0
-cached_per_million = 0.08
