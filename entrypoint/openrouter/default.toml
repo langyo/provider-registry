@@ -149,9 +149,9 @@ cached_per_million = 0.02
 id = "z-ai/glm-5.3-flash"
 
 [entrypoint.models.pricing]
-input_per_million = 0.09
-output_per_million = 0.3
-cached_per_million = 0.018
+input_per_million = 0.15
+output_per_million = 0.5
+cached_per_million = 0.05
 
 [[entrypoint.models]]
 id = "openai/o1-pro"
@@ -389,6 +389,14 @@ output_per_million = 30.0
 cached_per_million = 0.5
 
 [[entrypoint.models]]
+id = "xiaomi/mimo-v2.6-pro-ultraspeed"
+
+[entrypoint.models.pricing]
+input_per_million = 4.35
+output_per_million = 8.7
+cached_per_million = 0.036
+
+[[entrypoint.models]]
 id = "aion-labs/aion-1.0"
 
 [entrypoint.models.pricing]
@@ -413,14 +421,6 @@ cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "anthropic/claude-sonnet-4.5"
-
-[entrypoint.models.pricing]
-input_per_million = 3.0
-output_per_million = 15.0
-cached_per_million = 0.3
-
-[[entrypoint.models]]
-id = "anthropic/claude-sonnet-4.6"
 
 [entrypoint.models.pricing]
 input_per_million = 3.0
