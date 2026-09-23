@@ -6,7 +6,7 @@ id = "aion-labs/aion-3.0-mini"
 name = "Aion-3.0-Mini"
 provider_id = "openrouter"
 
-context_window = 1048576
+context_window = 131072
 max_output_tokens = 32768
 supports_vision = false
 supports_function_calling = true
