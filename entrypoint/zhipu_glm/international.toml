@@ -28,7 +28,7 @@ ru = "GLM Международный (Разовая оплата)"
 
 [entrypoint.defaults]
 deep = "glm-5.3"
-normal = "glm-5.2:batch"
+normal = "glm-5.3:batch"
 basic = "glm-5.3-flashx"
 
 [entrypoint.defaults.max_concurrent]
@@ -43,6 +43,14 @@ id = "glm-5v-turbo"
 input_per_million = 5.0
 output_per_million = 22.0
 cached_per_million = 1.2
+
+[[entrypoint.models]]
+id = "glm-5.3-prime"
+
+[entrypoint.models.pricing]
+input_per_million = 2.8
+output_per_million = 8.8
+cached_per_million = 0.56
 
 [[entrypoint.models]]
 id = "glm-5.1"
