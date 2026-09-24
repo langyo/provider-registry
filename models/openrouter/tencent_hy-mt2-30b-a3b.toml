@@ -6,7 +6,7 @@ id = "tencent/hy-mt2-30b-a3b"
 name = "Hy-MT2-30B-A3B"
 provider_id = "openrouter"
 
-context_window = 8192
+context_window = 32768
 max_output_tokens = 4096
 supports_vision = false
 supports_function_calling = false

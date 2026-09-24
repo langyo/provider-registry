@@ -1,13 +1,13 @@
-# Kimi K3
-# Provider: qwen
+# Ember-1
+# Provider: fireworks
 
 [model]
-id = "kimi-k3"
-name = "Kimi K3"
-provider_id = "qwen"
+id = "accounts/fireworks/models/ember-1"
+name = "Ember-1"
+provider_id = "fireworks"
 
 context_window = 1048576
-max_output_tokens = 1048576
+max_output_tokens = 131072
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true

@@ -1,9 +1,9 @@
-# Qwen3.8 Max Prime
+# Qwen 3.8 Max Prime
 # Provider: openrouter
 
 [model]
 id = "qwen/qwen3.8-max-prime"
-name = "Qwen3.8 Max Prime"
+name = "Qwen 3.8 Max Prime"
 provider_id = "openrouter"
 
 context_window = 1000000
