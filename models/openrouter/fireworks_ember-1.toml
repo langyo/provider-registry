@@ -1,9 +1,9 @@
-# DeepSeek Flash Latest
+# Ember-1
 # Provider: openrouter
 
 [model]
-id = "~deepseek/deepseek-flash-latest"
-name = "DeepSeek Flash Latest"
+id = "fireworks/ember-1"
+name = "Ember-1"
 provider_id = "openrouter"
 
 context_window = 1048576
@@ -12,9 +12,9 @@ supports_vision = true
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
-tags = ["cost_effective"]
+tags = []
 
 [model.pricing]
-input_per_million = 0.04
-output_per_million = 1.0
-cached_per_million = 0.01
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
