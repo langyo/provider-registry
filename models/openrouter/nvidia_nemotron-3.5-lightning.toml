@@ -7,7 +7,7 @@ name = "Nemotron 3.5 Lightning 30B A3B"
 provider_id = "openrouter"
 
 context_window = 1000000
-max_output_tokens = 131072
+max_output_tokens = 32768
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
