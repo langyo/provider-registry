@@ -177,6 +177,14 @@ output_per_million = 60.0
 cached_per_million = 7.5
 
 [[entrypoint.models]]
+id = "gpt-daybreak-red-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 12.5
+output_per_million = 75.0
+cached_per_million = 1.25
+
+[[entrypoint.models]]
 id = "gpt-5.2-pro:batch"
 
 [entrypoint.models.pricing]
@@ -261,6 +269,14 @@ id = "gpt-image-2"
 input_per_million = 5.0
 output_per_million = 30.0
 cached_per_million = 1.25
+
+[[entrypoint.models]]
+id = "gpt-daybreak-blue-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 4.0
+output_per_million = 20.0
+cached_per_million = 0.4
 
 [[entrypoint.models]]
 id = "gpt-5.6"
@@ -399,22 +415,6 @@ cached_per_million = 0.5
 
 [[entrypoint.models]]
 id = "gpt-5.2"
-
-[entrypoint.models.pricing]
-input_per_million = 1.75
-output_per_million = 14.0
-cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-5.2-chat"
-
-[entrypoint.models.pricing]
-input_per_million = 1.75
-output_per_million = 14.0
-cached_per_million = 0.175
-
-[[entrypoint.models]]
-id = "gpt-5.2-chat-latest"
 
 [entrypoint.models.pricing]
 input_per_million = 1.75
