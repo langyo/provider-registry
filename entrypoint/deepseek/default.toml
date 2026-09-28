@@ -83,11 +83,27 @@ output_per_million = 1.2
 cached_per_million = 0.2
 
 [[entrypoint.models]]
+id = "deepseek-chat-v3-0324"
+
+[entrypoint.models.pricing]
+input_per_million = 0.29
+output_per_million = 1.14
+cached_per_million = 0.11
+
+[[entrypoint.models]]
 id = "deepseek-r1-distill-qwen-32b"
 
 [entrypoint.models.pricing]
 input_per_million = 0.29
 output_per_million = 0.29
+
+[[entrypoint.models]]
+id = "deepseek-v3.2"
+
+[entrypoint.models.pricing]
+input_per_million = 0.28
+output_per_million = 0.42
+cached_per_million = 0.028
 
 [[entrypoint.models]]
 id = "deepseek-v3.1-terminus"
@@ -96,14 +112,6 @@ id = "deepseek-v3.1-terminus"
 input_per_million = 0.27
 output_per_million = 1.0
 cached_per_million = 0.135
-
-[[entrypoint.models]]
-id = "deepseek-v3.2"
-
-[entrypoint.models.pricing]
-input_per_million = 0.27
-output_per_million = 0.4
-cached_per_million = 0.1345
 
 [[entrypoint.models]]
 id = "deepseek-v3.2-exp"
@@ -120,13 +128,6 @@ input_per_million = 0.26
 output_per_million = 1.03
 
 [[entrypoint.models]]
-id = "deepseek-chat-v3-0324"
-
-[entrypoint.models.pricing]
-input_per_million = 0.25
-output_per_million = 1.0
-
-[[entrypoint.models]]
 id = "deepseek-chat-v3.1"
 
 [entrypoint.models.pricing]
@@ -140,7 +141,7 @@ id = "deepseek-v4-pro-0813"
 [entrypoint.models.pricing]
 input_per_million = 0.25
 output_per_million = 3.5
-cached_per_million = 0.172
+cached_per_million = 0.2518
 
 [[entrypoint.models]]
 id = "deepseek-v4-flash"
@@ -202,9 +203,9 @@ cached_per_million = 0.0034
 id = "deepseek-v4.1-flash"
 
 [entrypoint.models.pricing]
-input_per_million = 0.04
-output_per_million = 0.29
-cached_per_million = 0.001
+input_per_million = 0.03
+output_per_million = 0.6
+cached_per_million = 0.0268
 
 [[entrypoint.models]]
 id = "deepseek-v4-flash-0731"
