@@ -118,6 +118,7 @@ id = "mistral-medium-latest"
 [entrypoint.models.pricing]
 input_per_million = 1.5
 output_per_million = 7.5
+cached_per_million = 0.15
 
 [[entrypoint.models]]
 id = "mistral-medium-2604"
@@ -125,6 +126,7 @@ id = "mistral-medium-2604"
 [entrypoint.models.pricing]
 input_per_million = 1.5
 output_per_million = 7.5
+cached_per_million = 0.15
 
 [[entrypoint.models]]
 id = "mistral-medium-3-5"
@@ -167,6 +169,7 @@ id = "mistral-large-latest"
 [entrypoint.models.pricing]
 input_per_million = 0.5
 output_per_million = 1.5
+cached_per_million = 0.05
 
 [[entrypoint.models]]
 id = "mistral-large-2512"
@@ -256,6 +259,7 @@ id = "codestral-latest"
 [entrypoint.models.pricing]
 input_per_million = 0.3
 output_per_million = 0.9
+cached_per_million = 0.03
 
 [[entrypoint.models]]
 id = "codestral-2508"
@@ -317,6 +321,7 @@ id = "mistral-small-latest"
 [entrypoint.models.pricing]
 input_per_million = 0.15
 output_per_million = 0.6
+cached_per_million = 0.015
 
 [[entrypoint.models]]
 id = "mistral-small-2603"
