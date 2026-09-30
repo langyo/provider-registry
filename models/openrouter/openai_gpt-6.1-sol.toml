@@ -1,13 +1,13 @@
-# GLM-4.6V
+# GPT-6.1 Sol
 # Provider: openrouter
 
 [model]
-id = "z-ai/glm-4.6v"
-name = "GLM-4.6V"
+id = "openai/gpt-6.1-sol"
+name = "GPT-6.1 Sol"
 provider_id = "openrouter"
 
-context_window = 131072
-max_output_tokens = 32768
+context_window = 1050000
+max_output_tokens = 128000
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 0.3
-output_per_million = 0.9
-cached_per_million = 0.055
+input_per_million = 2.0
+output_per_million = 10.0
+cached_per_million = 0.1

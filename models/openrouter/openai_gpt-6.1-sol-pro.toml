@@ -1,10 +1,10 @@
-# GPT-6.1 Sol
-# Provider: openai
+# GPT-6.1 Sol Pro
+# Provider: openrouter
 
 [model]
-id = "gpt-6.1-sol"
-name = "GPT-6.1 Sol"
-provider_id = "openai"
+id = "openai/gpt-6.1-sol-pro"
+name = "GPT-6.1 Sol Pro"
+provider_id = "openrouter"
 
 context_window = 1050000
 max_output_tokens = 128000
@@ -18,7 +18,3 @@ tags = []
 input_per_million = 2.0
 output_per_million = 10.0
 cached_per_million = 0.1
-
-[model.score]
-value = 51.8
-source = "artificial_analysis"
