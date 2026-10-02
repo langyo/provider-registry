@@ -218,3 +218,6 @@ id = "grok-imagine-video"
 
 [[entrypoint.models]]
 id = "grok-imagine-video-1.5"
+
+[[entrypoint.models]]
+id = "grok-imagine-video-1.5-lite"
