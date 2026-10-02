@@ -113,3 +113,18 @@ id = "c4ai-aya-vision-8b"
 
 [[entrypoint.models]]
 id = "north-mini-code-1-0"
+
+[[entrypoint.models]]
+id = "north-small-translate-09-2026"
+
+[[entrypoint.models]]
+id = "tiny-aya-earth"
+
+[[entrypoint.models]]
+id = "tiny-aya-fire"
+
+[[entrypoint.models]]
+id = "tiny-aya-global"
+
+[[entrypoint.models]]
+id = "tiny-aya-water"
