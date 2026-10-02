@@ -277,6 +277,22 @@ output_per_million = 1.5
 cached_per_million = 0.04
 
 [[entrypoint.models]]
+id = "accounts/fireworks/routers/deepseek-flash-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 1.2
+cached_per_million = 0.006
+
+[[entrypoint.models]]
+id = "accounts/fireworks/models/deepseek-v4p1-flash"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 1.2
+cached_per_million = 0.006
+
+[[entrypoint.models]]
 id = "accounts/fireworks/routers/minimax-latest"
 
 [entrypoint.models.pricing]
@@ -293,14 +309,6 @@ output_per_million = 1.2
 cached_per_million = 0.06
 
 [[entrypoint.models]]
-id = "accounts/fireworks/routers/deepseek-flash-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 0.22
-output_per_million = 0.66
-cached_per_million = 0.007
-
-[[entrypoint.models]]
 id = "accounts/fireworks/models/deepseek-v4-flash-0731"
 
 [entrypoint.models.pricing]
@@ -310,14 +318,6 @@ cached_per_million = 0.007
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/deepseek-v4-flash-vision-exp"
-
-[entrypoint.models.pricing]
-input_per_million = 0.22
-output_per_million = 0.66
-cached_per_million = 0.007
-
-[[entrypoint.models]]
-id = "accounts/fireworks/models/deepseek-v4p1-flash"
 
 [entrypoint.models.pricing]
 input_per_million = 0.22
