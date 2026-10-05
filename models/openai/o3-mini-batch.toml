@@ -18,3 +18,7 @@ tags = ["reasoning", "cost_effective"]
 input_per_million = 0.55
 output_per_million = 2.2
 cached_per_million = 0.275
+
+[model.score]
+value = 12.5
+source = "artificial_analysis"

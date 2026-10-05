@@ -17,3 +17,7 @@ tags = ["reasoning", "vision"]
 [model.pricing]
 input_per_million = 0.4
 output_per_million = 4.0
+
+[model.score]
+value = 13.4
+source = "artificial_analysis"
