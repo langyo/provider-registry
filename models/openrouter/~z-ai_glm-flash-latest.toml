@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["cost_effective"]
 
 [model.pricing]
-input_per_million = 0.0278
+input_per_million = 0.0317
 output_per_million = 0.5
-cached_per_million = 0.0278
+cached_per_million = 0.0317

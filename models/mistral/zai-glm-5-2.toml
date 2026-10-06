@@ -6,7 +6,7 @@ id = "zai-glm-5-2"
 name = "GLM-5.2"
 provider_id = "mistral"
 
-context_window = 1000000
+context_window = 1048576
 max_output_tokens = 131072
 supports_vision = false
 supports_function_calling = true

@@ -6,7 +6,7 @@ id = "mistral-small-latest"
 name = "Mistral Small (latest)"
 provider_id = "mistral"
 
-context_window = 256000
+context_window = 262144
 max_output_tokens = 256000
 supports_vision = true
 supports_function_calling = true
