@@ -1,13 +1,13 @@
-# Mistral: Codestral 2508
+# Codestral 25.08
 # Provider: mistral
 
 [model]
 id = "codestral-2508"
-name = "Mistral: Codestral 2508"
+name = "Codestral 25.08"
 provider_id = "mistral"
 
 context_window = 256000
-max_output_tokens = 16384
+max_output_tokens = 8192
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true

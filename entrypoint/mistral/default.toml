@@ -27,14 +27,22 @@ es = "Mistral AI (Oficial)"
 ru = "Mistral AI (Официальный)"
 
 [entrypoint.defaults]
-deep = "zai-glm-5-2"
-normal = "zai-glm-5-3"
+deep = "glm-5-2"
+normal = "zai-glm-5-2"
 basic = "voxtral-mini-latest"
 
 [entrypoint.defaults.max_concurrent]
 deep = 1
 normal = 1
 basic = 2
+
+[[entrypoint.models]]
+id = "glm-5-2"
+
+[entrypoint.models.pricing]
+input_per_million = 1.4
+output_per_million = 4.4
+cached_per_million = 0.14
 
 [[entrypoint.models]]
 id = "zai-glm-5-2"
@@ -325,6 +333,14 @@ output_per_million = 0.6
 cached_per_million = 0.02
 
 [[entrypoint.models]]
+id = "ministral-8b-2512"
+
+[entrypoint.models.pricing]
+input_per_million = 0.15
+output_per_million = 0.15
+cached_per_million = 0.015
+
+[[entrypoint.models]]
 id = "mistral-nemo"
 
 [entrypoint.models.pricing]
@@ -353,14 +369,6 @@ id = "codestral-2508:batch"
 [entrypoint.models.pricing]
 input_per_million = 0.15
 output_per_million = 0.45
-cached_per_million = 0.015
-
-[[entrypoint.models]]
-id = "ministral-8b-2512"
-
-[entrypoint.models.pricing]
-input_per_million = 0.15
-output_per_million = 0.15
 cached_per_million = 0.015
 
 [[entrypoint.models]]
@@ -399,14 +407,9 @@ input_per_million = 0.1
 output_per_million = 0.3
 
 [[entrypoint.models]]
-id = "ministral-8b-latest"
+id = "ministral-3b-2512"
 
 [entrypoint.models.pricing]
 input_per_million = 0.1
 output_per_million = 0.1
-
-[[entrypoint.models]]
-id = "mistral-embed"
-
-[entrypoint.models.pricing]
-input_per_million = 0.1
+cached_per_million = 0.01

@@ -1,9 +1,9 @@
-# Codestral 2508
+# Codestral 25.08
 # Provider: openrouter
 
 [model]
 id = "mistralai/codestral-2508"
-name = "Codestral 2508"
+name = "Codestral 25.08"
 provider_id = "openrouter"
 
 context_window = 256000
