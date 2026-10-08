@@ -6,7 +6,7 @@ id = "mistralai/mistral-large-4-0"
 name = "Mistral Large 4"
 provider_id = "openrouter"
 
-context_window = 524288
+context_window = 1048576
 max_output_tokens = 262144
 supports_vision = true
 supports_function_calling = true
