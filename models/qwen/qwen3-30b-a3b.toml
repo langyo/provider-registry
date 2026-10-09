@@ -6,8 +6,8 @@ id = "qwen3-30b-a3b"
 name = "Qwen3 30B A3B"
 provider_id = "qwen"
 
-context_window = 131072
-max_output_tokens = 16384
+context_window = 40960
+max_output_tokens = 10240
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
