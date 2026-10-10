@@ -1,9 +1,9 @@
-# R1 0528
+# DeepSeek R1 0528
 # Provider: openrouter
 
 [model]
 id = "deepseek/deepseek-r1-0528"
-name = "R1 0528"
+name = "DeepSeek R1 0528"
 provider_id = "openrouter"
 
 context_window = 163840

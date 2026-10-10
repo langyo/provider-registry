@@ -1,9 +1,9 @@
-# Kimi K2 0905
+# Kimi K2 Instruct 0905
 # Provider: openrouter
 
 [model]
 id = "moonshotai/kimi-k2-0905"
-name = "Kimi K2 0905"
+name = "Kimi K2 Instruct 0905"
 provider_id = "openrouter"
 
 context_window = 262144
