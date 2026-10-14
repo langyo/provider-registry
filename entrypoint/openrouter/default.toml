@@ -138,6 +138,14 @@ output_per_million = 1.25
 cached_per_million = 0.02
 
 [[entrypoint.models]]
+id = "z-ai/glm-5.2"
+
+[entrypoint.models.pricing]
+input_per_million = 0.08
+output_per_million = 7.0
+cached_per_million = 0.07
+
+[[entrypoint.models]]
 id = "z-ai/glm-5.3"
 
 [entrypoint.models.pricing]
@@ -146,18 +154,10 @@ output_per_million = 4.8
 cached_per_million = 0.059
 
 [[entrypoint.models]]
-id = "z-ai/glm-5.2"
-
-[entrypoint.models.pricing]
-input_per_million = 0.06
-output_per_million = 7.0
-cached_per_million = 0.059
-
-[[entrypoint.models]]
 id = "z-ai/glm-5.3-flash"
 
 [entrypoint.models.pricing]
-input_per_million = 0.0261
+input_per_million = 0.0333
 output_per_million = 0.9
 cached_per_million = 0.0108
 
