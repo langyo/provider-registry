@@ -1,9 +1,9 @@
-# DeepSeek V4.1 Flash
+# DeepSeek V4.1 Flash 1017
 # Provider: deepseek
 
 [model]
 id = "deepseek-flash"
-name = "DeepSeek V4.1 Flash"
+name = "DeepSeek V4.1 Flash 1017"
 provider_id = "deepseek"
 
 context_window = 1000000
