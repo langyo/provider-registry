@@ -221,3 +221,12 @@ id = "grok-imagine-video-1.5"
 
 [[entrypoint.models]]
 id = "grok-imagine-video-1.5-lite"
+
+[[entrypoint.models]]
+id = "grok-tts"
+
+[[entrypoint.models]]
+id = "grok-voice-3.0"
+
+[[entrypoint.models]]
+id = "grok-voice-transcribe-2.0"
