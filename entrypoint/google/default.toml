@@ -45,6 +45,14 @@ output_per_million = 10.0
 cached_per_million = 0.1
 
 [[entrypoint.models]]
+id = "gemini-pro-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 2.0
+output_per_million = 12.0
+cached_per_million = 0.2
+
+[[entrypoint.models]]
 id = "gemini-3-pro-image"
 
 [entrypoint.models.pricing]
