@@ -1,9 +1,9 @@
-# MythoMax 13B
+# MythoMax L2 13B
 # Provider: openrouter
 
 [model]
 id = "gryphe/mythomax-l2-13b"
-name = "MythoMax 13B"
+name = "MythoMax L2 13B"
 provider_id = "openrouter"
 
 context_window = 8192

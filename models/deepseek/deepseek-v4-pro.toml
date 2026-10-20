@@ -6,7 +6,7 @@ id = "deepseek-v4-pro"
 name = "DeepSeek V4 Pro"
 provider_id = "deepseek"
 
-context_window = 1000000
+context_window = 1048576
 max_output_tokens = 393216
 supports_vision = false
 supports_function_calling = true

@@ -1,9 +1,9 @@
-# Qwen2.5 Coder 32B Instruct
+# Qwen2.5-Coder-32B-Instruct
 # Provider: openrouter
 
 [model]
 id = "qwen/qwen-2.5-coder-32b-instruct"
-name = "Qwen2.5 Coder 32B Instruct"
+name = "Qwen2.5-Coder-32B-Instruct"
 provider_id = "openrouter"
 
 context_window = 32768

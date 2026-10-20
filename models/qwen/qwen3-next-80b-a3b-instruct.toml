@@ -12,11 +12,11 @@ supports_vision = false
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = false
-tags = []
+tags = ["deprecated"]
 
 [model.pricing]
-input_per_million = 0.5
-output_per_million = 2.0
+input_per_million = 0.144
+output_per_million = 0.574
 
 [model.score]
 value = 9.6

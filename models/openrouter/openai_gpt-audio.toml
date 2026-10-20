@@ -1,9 +1,9 @@
-# GPT Audio
+# GPT-Audio
 # Provider: openrouter
 
 [model]
 id = "openai/gpt-audio"
-name = "GPT Audio"
+name = "GPT-Audio"
 provider_id = "openrouter"
 
 context_window = 128000

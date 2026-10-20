@@ -341,6 +341,14 @@ output_per_million = 0.15
 cached_per_million = 0.015
 
 [[entrypoint.models]]
+id = "ministral-8b-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.15
+output_per_million = 0.15
+cached_per_million = 0.015
+
+[[entrypoint.models]]
 id = "mistral-nemo"
 
 [entrypoint.models.pricing]
@@ -405,11 +413,3 @@ id = "devstral-small-2505"
 [entrypoint.models.pricing]
 input_per_million = 0.1
 output_per_million = 0.3
-
-[[entrypoint.models]]
-id = "ministral-3b-2512"
-
-[entrypoint.models.pricing]
-input_per_million = 0.1
-output_per_million = 0.1
-cached_per_million = 0.01
