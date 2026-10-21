@@ -1,9 +1,9 @@
-# Qwen3 235B A22B Thinking 2507
+# Qwen3 235B-A22B Thinking 2507
 # Provider: openrouter
 
 [model]
 id = "qwen/qwen3-235b-a22b-thinking-2507"
-name = "Qwen3 235B A22B Thinking 2507"
+name = "Qwen3 235B-A22B Thinking 2507"
 provider_id = "openrouter"
 
 context_window = 128000
