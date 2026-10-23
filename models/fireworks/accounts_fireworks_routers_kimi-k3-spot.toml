@@ -1,0 +1,20 @@
+# Kimi K3 Spot
+# Provider: fireworks
+
+[model]
+id = "accounts/fireworks/routers/kimi-k3-spot"
+name = "Kimi K3 Spot"
+provider_id = "fireworks"
+
+context_window = 1048576
+max_output_tokens = 131072
+supports_vision = true
+supports_function_calling = true
+supports_streaming = true
+supports_reasoning = true
+tags = []
+
+[model.pricing]
+input_per_million = 2.1
+output_per_million = 10.5
+cached_per_million = 0.21

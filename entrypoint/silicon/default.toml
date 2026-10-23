@@ -45,20 +45,20 @@ output_per_million = 4.4
 cached_per_million = 0.26
 
 [[entrypoint.models]]
-id = "zai-org/GLM-5.2"
-
-[entrypoint.models.pricing]
-input_per_million = 1.302
-output_per_million = 4.092
-cached_per_million = 0.26
-
-[[entrypoint.models]]
 id = "zai-org/GLM-5V-Turbo"
 
 [entrypoint.models.pricing]
 input_per_million = 1.2
 output_per_million = 4.0
 cached_per_million = 0.24
+
+[[entrypoint.models]]
+id = "zai-org/GLM-5.2"
+
+[entrypoint.models.pricing]
+input_per_million = 1.1956
+output_per_million = 4.1845
+cached_per_million = 0.298895
 
 [[entrypoint.models]]
 id = "zai-org/GLM-5.1"
@@ -119,9 +119,9 @@ cached_per_million = 0.25
 id = "deepseek-ai/DeepSeek-V4-Pro"
 
 [entrypoint.models.pricing]
-input_per_million = 1.5016
-output_per_million = 3.135
-cached_per_million = 0.135
+input_per_million = 1.7934
+output_per_million = 3.5867
+cached_per_million = 0.149447
 
 [[entrypoint.models]]
 id = "deepseek-ai/DeepSeek-V4-Pro-0813"
@@ -172,6 +172,13 @@ output_per_million = 2.95
 cached_per_million = 0.015
 
 [[entrypoint.models]]
+id = "Qwen/Qwen2.5-72B-Instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.6172
+output_per_million = 0.6172
+
+[[entrypoint.models]]
 id = "Pro/zai-org/GLM-4.7"
 
 [entrypoint.models.pricing]
@@ -184,6 +191,30 @@ id = "zai-org/GLM-4.7"
 [entrypoint.models.pricing]
 input_per_million = 0.6
 output_per_million = 2.2
+
+[[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-R1"
+
+[entrypoint.models.pricing]
+input_per_million = 0.5978
+output_per_million = 2.3912
+cached_per_million = 0.059779
+
+[[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-V3.1-Terminus"
+
+[entrypoint.models.pricing]
+input_per_million = 0.5978
+output_per_million = 1.7934
+cached_per_million = 0.059779
+
+[[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-V3.2"
+
+[entrypoint.models.pricing]
+input_per_million = 0.5978
+output_per_million = 0.8967
+cached_per_million = 0.059779
 
 [[entrypoint.models]]
 id = "Pro/deepseek-ai/DeepSeek-R1"
@@ -208,13 +239,6 @@ id = "Pro/deepseek-ai/DeepSeek-V3.2"
 input_per_million = 0.5978
 output_per_million = 0.8967
 cached_per_million = 0.059779
-
-[[entrypoint.models]]
-id = "Qwen/Qwen2.5-72B-Instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.59
-output_per_million = 0.59
 
 [[entrypoint.models]]
 id = "Qwen/Qwen2.5-72B-Instruct-128K"
@@ -250,13 +274,6 @@ id = "Pro/moonshotai/Kimi-K2-Thinking"
 [entrypoint.models.pricing]
 input_per_million = 0.55
 output_per_million = 2.5
-
-[[entrypoint.models]]
-id = "deepseek-ai/DeepSeek-R1"
-
-[entrypoint.models.pricing]
-input_per_million = 0.5
-output_per_million = 2.18
 
 [[entrypoint.models]]
 id = "nex-agi/Nex-N2-Pro"
@@ -297,6 +314,14 @@ input_per_million = 0.45
 output_per_million = 3.5
 
 [[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-V4-Flash"
+
+[entrypoint.models.pricing]
+input_per_million = 0.4483
+output_per_million = 1.345
+cached_per_million = 0.044834
+
+[[entrypoint.models]]
 id = "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp"
 
 [entrypoint.models.pricing]
@@ -324,13 +349,6 @@ id = "zai-org/GLM-4.5"
 [entrypoint.models.pricing]
 input_per_million = 0.4
 output_per_million = 2.0
-
-[[entrypoint.models]]
-id = "Qwen/Qwen3.5-397B-A17B"
-
-[entrypoint.models.pricing]
-input_per_million = 0.39
-output_per_million = 2.34
 
 [[entrypoint.models]]
 id = "Qwen/Qwen3-235B-A22B"
@@ -391,23 +409,9 @@ input_per_million = 0.3
 output_per_million = 0.9
 
 [[entrypoint.models]]
-id = "Pro/deepseek-ai/DeepSeek-V3"
+id = "deepseek-ai/DeepSeek-V3"
 
 [entrypoint.models.pricing]
 input_per_million = 0.2989
 output_per_million = 1.1956
 cached_per_million = 0.029889
-
-[[entrypoint.models]]
-id = "Qwen/Qwen3-VL-30B-A3B-Instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.29
-output_per_million = 1.0
-
-[[entrypoint.models]]
-id = "Qwen/Qwen3-VL-30B-A3B-Thinking"
-
-[entrypoint.models.pricing]
-input_per_million = 0.29
-output_per_million = 1.0
