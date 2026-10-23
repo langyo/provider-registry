@@ -351,6 +351,13 @@ input_per_million = 0.4
 output_per_million = 2.0
 
 [[entrypoint.models]]
+id = "Qwen/Qwen3.5-397B-A17B"
+
+[entrypoint.models.pricing]
+input_per_million = 0.39
+output_per_million = 2.34
+
+[[entrypoint.models]]
 id = "Qwen/Qwen3-235B-A22B"
 
 [entrypoint.models.pricing]
@@ -407,11 +414,3 @@ id = "zai-org/GLM-4.6V"
 [entrypoint.models.pricing]
 input_per_million = 0.3
 output_per_million = 0.9
-
-[[entrypoint.models]]
-id = "deepseek-ai/DeepSeek-V3"
-
-[entrypoint.models.pricing]
-input_per_million = 0.2989
-output_per_million = 1.1956
-cached_per_million = 0.029889
