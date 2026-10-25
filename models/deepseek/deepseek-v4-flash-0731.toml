@@ -16,8 +16,8 @@ tags = ["vision", "cost_effective"]
 
 [model.pricing]
 input_per_million = 0.04
-output_per_million = 0.13
-cached_per_million = 0.0014
+output_per_million = 0.17
+cached_per_million = 0.028
 
 [model.score]
 value = 57.49

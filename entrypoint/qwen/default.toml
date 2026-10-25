@@ -40,9 +40,9 @@ basic = 2
 id = "glm-5.2"
 
 [entrypoint.models.pricing]
-input_per_million = 1.1
-output_per_million = 3.851
-cached_per_million = 0.275
+input_per_million = 1.4
+output_per_million = 4.4
+cached_per_million = 0.28
 
 [[entrypoint.models]]
 id = "glm-5.3"
@@ -62,10 +62,6 @@ cached_per_million = 0.165
 
 [[entrypoint.models]]
 id = "glm-5"
-
-[entrypoint.models.pricing]
-input_per_million = 0.573
-output_per_million = 2.58
 
 [[entrypoint.models]]
 id = "qwen3-livetranslate-flash-realtime"
@@ -93,9 +89,9 @@ cached_per_million = 0.5
 id = "kimi-k3"
 
 [entrypoint.models.pricing]
-input_per_million = 2.827
-output_per_million = 14.133
-cached_per_million = 0.283
+input_per_million = 3.0
+output_per_million = 15.0
+cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "qwen2-5-vl-72b-instruct"
@@ -103,6 +99,21 @@ id = "qwen2-5-vl-72b-instruct"
 [entrypoint.models.pricing]
 input_per_million = 2.8
 output_per_million = 8.4
+
+[[entrypoint.models]]
+id = "qwen3.7-max"
+
+[entrypoint.models.pricing]
+input_per_million = 2.5
+output_per_million = 7.5
+cached_per_million = 0.5
+
+[[entrypoint.models]]
+id = "qwen-mt-plus"
+
+[entrypoint.models.pricing]
+input_per_million = 2.46
+output_per_million = 7.37
 
 [[entrypoint.models]]
 id = "qwen3.8-2.4t-a95b"
@@ -121,7 +132,7 @@ output_per_million = 6.0
 cached_per_million = 0.25
 
 [[entrypoint.models]]
-id = "qwen3.8-max-0902"
+id = "qwen3.8-max"
 
 [entrypoint.models.pricing]
 input_per_million = 2.0
@@ -129,12 +140,12 @@ output_per_million = 6.0
 cached_per_million = 0.25
 
 [[entrypoint.models]]
-id = "qwen3.8-max"
+id = "qwen3.8-max-0902"
 
 [entrypoint.models.pricing]
-input_per_million = 1.7774
-output_per_million = 5.3323
-cached_per_million = 0.22218
+input_per_million = 2.0
+output_per_million = 6.0
+cached_per_million = 0.25
 
 [[entrypoint.models]]
 id = "deepseek-v4-pro"
@@ -144,12 +155,18 @@ input_per_million = 1.65
 output_per_million = 3.301
 
 [[entrypoint.models]]
-id = "qwen3.7-max"
+id = "qwen-max"
 
 [entrypoint.models.pricing]
-input_per_million = 1.65
-output_per_million = 4.951
-cached_per_million = 0.33
+input_per_million = 1.6
+output_per_million = 6.4
+
+[[entrypoint.models]]
+id = "qwen3-coder-480b-a35b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 1.5
+output_per_million = 7.5
 
 [[entrypoint.models]]
 id = "qwen2-5-72b-instruct"
@@ -162,8 +179,15 @@ output_per_million = 5.6
 id = "qvq-max"
 
 [entrypoint.models.pricing]
-input_per_million = 1.147
-output_per_million = 4.588
+input_per_million = 1.2
+output_per_million = 4.8
+
+[[entrypoint.models]]
+id = "qwen3-max"
+
+[entrypoint.models.pricing]
+input_per_million = 1.2
+output_per_million = 6.0
 
 [[entrypoint.models]]
 id = "kimi-k2.6"
@@ -174,11 +198,11 @@ output_per_million = 3.858
 cached_per_million = 0.1858
 
 [[entrypoint.models]]
-id = "qwen3-coder-480b-a35b-instruct"
+id = "qwen-vl-max"
 
 [entrypoint.models.pricing]
-input_per_million = 0.861
-output_per_million = 3.441
+input_per_million = 0.8
+output_per_million = 3.2
 
 [[entrypoint.models]]
 id = "qwen2.5-vl-72b-instruct"
@@ -189,6 +213,13 @@ output_per_million = 1.0
 cached_per_million = 0.4
 
 [[entrypoint.models]]
+id = "qwq-plus"
+
+[entrypoint.models.pricing]
+input_per_million = 0.8
+output_per_million = 2.4
+
+[[entrypoint.models]]
 id = "qwen3-max-thinking"
 
 [entrypoint.models.pricing]
@@ -197,6 +228,27 @@ output_per_million = 3.9
 
 [[entrypoint.models]]
 id = "qwen2-5-32b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.7
+output_per_million = 2.8
+
+[[entrypoint.models]]
+id = "qwen3-235b-a22b"
+
+[entrypoint.models.pricing]
+input_per_million = 0.7
+output_per_million = 2.8
+
+[[entrypoint.models]]
+id = "qwen3-32b"
+
+[entrypoint.models.pricing]
+input_per_million = 0.7
+output_per_million = 2.8
+
+[[entrypoint.models]]
+id = "qwen3-vl-235b-a22b"
 
 [entrypoint.models.pricing]
 input_per_million = 0.7
@@ -216,6 +268,14 @@ id = "kimi/kimi-k2.5"
 input_per_million = 0.6
 output_per_million = 3.0
 cached_per_million = 0.1
+
+[[entrypoint.models]]
+id = "qwen3.5-397b-a17b"
+
+[entrypoint.models.pricing]
+input_per_million = 0.6
+output_per_million = 3.6
+cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "qwen3.6-27b"
@@ -261,14 +321,6 @@ input_per_million = 0.574
 output_per_million = 2.294
 
 [[entrypoint.models]]
-id = "kimi-k2.5"
-
-[entrypoint.models.pricing]
-input_per_million = 0.574
-output_per_million = 3.011
-cached_per_million = 0.1148
-
-[[entrypoint.models]]
 id = "qwen-math-plus"
 
 [entrypoint.models.pricing]
@@ -283,11 +335,11 @@ input_per_million = 0.574
 output_per_million = 1.721
 
 [[entrypoint.models]]
-id = "qwen3-coder-plus"
+id = "qwen3-omni-flash-realtime"
 
 [entrypoint.models.pricing]
-input_per_million = 0.574
-output_per_million = 2.296
+input_per_million = 0.52
+output_per_million = 1.99
 
 [[entrypoint.models]]
 id = "qwen-plus-character-ja"
@@ -295,6 +347,20 @@ id = "qwen-plus-character-ja"
 [entrypoint.models.pricing]
 input_per_million = 0.5
 output_per_million = 1.4
+
+[[entrypoint.models]]
+id = "qwen3-next-80b-a3b-thinking"
+
+[entrypoint.models.pricing]
+input_per_million = 0.5
+output_per_million = 6.0
+
+[[entrypoint.models]]
+id = "qwen3-next-80b-a3b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.5
+output_per_million = 2.0
 
 [[entrypoint.models]]
 id = "siliconflow/deepseek-r1-0528"
@@ -311,6 +377,13 @@ input_per_million = 0.45
 output_per_million = 3.5
 
 [[entrypoint.models]]
+id = "qwen3-coder-30b-a3b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.45
+output_per_million = 2.25
+
+[[entrypoint.models]]
 id = "deepseek-v4-flash-0731"
 
 [entrypoint.models.pricing]
@@ -319,89 +392,8 @@ output_per_million = 1.32
 cached_per_million = 0.088
 
 [[entrypoint.models]]
-id = "qwen3-vl-235b-a22b-thinking"
+id = "qwen3-omni-flash"
 
 [entrypoint.models.pricing]
-input_per_million = 0.4
-output_per_million = 4.0
-
-[[entrypoint.models]]
-id = "qwen3.5-122b-a10b"
-
-[entrypoint.models.pricing]
-input_per_million = 0.4
-output_per_million = 3.2
-
-[[entrypoint.models]]
-id = "qwen3.6-35b-a3b"
-
-[entrypoint.models.pricing]
-input_per_million = 0.375
-output_per_million = 2.25
-cached_per_million = 0.05
-
-[[entrypoint.models]]
-id = "qwen-2.5-72b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.36
-output_per_million = 0.4
-
-[[entrypoint.models]]
-id = "qwen3-max"
-
-[entrypoint.models.pricing]
-input_per_million = 0.359
-output_per_million = 1.434
-
-[[entrypoint.models]]
-id = "qwen2-5-14b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.35
-output_per_million = 1.4
-
-[[entrypoint.models]]
-id = "qwen2-5-vl-7b-instruct"
-
-[entrypoint.models.pricing]
-input_per_million = 0.35
-output_per_million = 1.05
-
-[[entrypoint.models]]
-id = "qwen-max"
-
-[entrypoint.models.pricing]
-input_per_million = 0.345
-output_per_million = 1.377
-
-[[entrypoint.models]]
-id = "MiniMax-M2.5"
-
-[entrypoint.models.pricing]
-input_per_million = 0.3
-output_per_million = 1.2
-
-[[entrypoint.models]]
-id = "MiniMax/MiniMax-M2.7"
-
-[entrypoint.models.pricing]
-input_per_million = 0.3
-output_per_million = 1.2
-cached_per_million = 0.06
-
-[[entrypoint.models]]
-id = "qwen3-coder"
-
-[entrypoint.models.pricing]
-input_per_million = 0.3
-output_per_million = 1.0
-cached_per_million = 0.1
-
-[[entrypoint.models]]
-id = "qwen3.5-27b"
-
-[entrypoint.models.pricing]
-input_per_million = 0.3
-output_per_million = 2.4
-cached_per_million = 0.27
+input_per_million = 0.43
+output_per_million = 1.66
