@@ -7,7 +7,7 @@ name = "Gemma 3 4B IT"
 provider_id = "openrouter"
 
 context_window = 131072
-max_output_tokens = 117964
+max_output_tokens = 16384
 supports_vision = true
 supports_function_calling = false
 supports_streaming = true
@@ -15,6 +15,5 @@ supports_reasoning = false
 tags = []
 
 [model.pricing]
-input_per_million = 0.04
-output_per_million = 0.05
-cached_per_million = 0.02
+input_per_million = 0.05
+output_per_million = 0.1
