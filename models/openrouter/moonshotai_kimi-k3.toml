@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 0.159
+input_per_million = 0.231
 output_per_million = 20.0
-cached_per_million = 0.149
+cached_per_million = 0.221
