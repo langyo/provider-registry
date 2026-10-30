@@ -16,5 +16,5 @@ tags = []
 
 [model.pricing]
 input_per_million = 0.1615
-output_per_million = 10.1583
+output_per_million = 10.1551
 cached_per_million = 0.16
