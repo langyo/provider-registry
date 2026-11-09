@@ -203,7 +203,7 @@ id = "deepseek-v4-flash-0731"
 
 [entrypoint.models.pricing]
 input_per_million = 0.04
-output_per_million = 0.28
+output_per_million = 0.3
 cached_per_million = 0.035
 
 [[entrypoint.models]]
