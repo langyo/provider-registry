@@ -165,9 +165,9 @@ cached_per_million = 0.0689
 id = "z-ai/glm-5.2"
 
 [entrypoint.models.pricing]
-input_per_million = 0.006
+input_per_million = 0.0071
 output_per_million = 6.8
-cached_per_million = 0.005
+cached_per_million = 0.0061
 
 [[entrypoint.models]]
 id = "openai/o1-pro"
