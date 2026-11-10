@@ -6,7 +6,7 @@ id = "minimax-m2.5"
 name = "MiniMax M2.5"
 provider_id = "minimax"
 
-context_window = 204800
+context_window = 200000
 max_output_tokens = 16384
 supports_vision = false
 supports_function_calling = true
