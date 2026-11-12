@@ -63,10 +63,6 @@ cached_per_million = 0.165
 [[entrypoint.models]]
 id = "glm-5"
 
-[entrypoint.models.pricing]
-input_per_million = 0.573
-output_per_million = 2.58
-
 [[entrypoint.models]]
 id = "qwen3-livetranslate-flash-realtime"
 
@@ -201,13 +197,6 @@ input_per_million = 1.15
 output_per_million = 3.45
 
 [[entrypoint.models]]
-id = "qwen3-coder-plus"
-
-[entrypoint.models.pricing]
-input_per_million = 1.0
-output_per_million = 5.0
-
-[[entrypoint.models]]
 id = "kimi-k2.6"
 
 [entrypoint.models.pricing]
@@ -338,14 +327,6 @@ input_per_million = 0.574
 output_per_million = 2.294
 
 [[entrypoint.models]]
-id = "kimi-k2.5"
-
-[entrypoint.models.pricing]
-input_per_million = 0.574
-output_per_million = 3.011
-cached_per_million = 0.1148
-
-[[entrypoint.models]]
 id = "qwen-math-plus"
 
 [entrypoint.models.pricing]
@@ -388,16 +369,30 @@ input_per_million = 0.5
 output_per_million = 2.0
 
 [[entrypoint.models]]
-id = "qwen3.6-plus"
-
-[entrypoint.models.pricing]
-input_per_million = 0.5
-output_per_million = 3.0
-cached_per_million = 0.05
-
-[[entrypoint.models]]
 id = "siliconflow/deepseek-r1-0528"
 
 [entrypoint.models.pricing]
 input_per_million = 0.5
 output_per_million = 2.18
+
+[[entrypoint.models]]
+id = "qwen3-235b-a22b-thinking-2507"
+
+[entrypoint.models.pricing]
+input_per_million = 0.45
+output_per_million = 3.5
+
+[[entrypoint.models]]
+id = "qwen3-coder-30b-a3b-instruct"
+
+[entrypoint.models.pricing]
+input_per_million = 0.45
+output_per_million = 2.25
+
+[[entrypoint.models]]
+id = "deepseek-v4-flash-0731"
+
+[entrypoint.models.pricing]
+input_per_million = 0.44
+output_per_million = 1.32
+cached_per_million = 0.088
