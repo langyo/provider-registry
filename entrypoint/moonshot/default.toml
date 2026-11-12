@@ -134,6 +134,6 @@ output_per_million = 2.3
 id = "kimi-k2.5"
 
 [entrypoint.models.pricing]
-input_per_million = 0.53
-output_per_million = 3.32
-cached_per_million = 0.209
+input_per_million = 0.5
+output_per_million = 2.5
+cached_per_million = 0.15
