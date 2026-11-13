@@ -15,6 +15,6 @@ supports_reasoning = true
 tags = ["deprecated"]
 
 [model.pricing]
-input_per_million = 0.056
-output_per_million = 0.083
-cached_per_million = 0.051
+input_per_million = 0.156
+output_per_million = 0.229
+cached_per_million = 0.14
