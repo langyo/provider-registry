@@ -8,7 +8,7 @@ provider_id = "mistral"
 
 context_window = 1048576
 max_output_tokens = 128000
-supports_vision = false
+supports_vision = true
 supports_function_calling = true
 supports_streaming = true
 supports_reasoning = true
