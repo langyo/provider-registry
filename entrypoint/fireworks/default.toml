@@ -133,14 +133,6 @@ output_per_million = 15.0
 cached_per_million = 0.3
 
 [[entrypoint.models]]
-id = "accounts/fireworks/routers/kimi-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 3.0
-output_per_million = 15.0
-cached_per_million = 0.3
-
-[[entrypoint.models]]
 id = "accounts/fireworks/routers/deepseek-v4p1-flash-1017-ultrafast"
 
 [entrypoint.models.pricing]
@@ -182,6 +174,14 @@ cached_per_million = 0.3
 
 [[entrypoint.models]]
 id = "accounts/fireworks/models/kimi-k3p1-pro"
+
+[entrypoint.models.pricing]
+input_per_million = 2.0
+output_per_million = 10.0
+cached_per_million = 0.2
+
+[[entrypoint.models]]
+id = "accounts/fireworks/routers/kimi-latest"
 
 [entrypoint.models.pricing]
 input_per_million = 2.0
