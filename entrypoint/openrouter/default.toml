@@ -66,20 +66,20 @@ output_per_million = 15.0
 cached_per_million = 2.0
 
 [[entrypoint.models]]
-id = "z-ai/glm-5.3-prime"
-
-[entrypoint.models.pricing]
-input_per_million = 2.8
-output_per_million = 8.8
-cached_per_million = 0.56
-
-[[entrypoint.models]]
 id = "openai/gpt-5.4"
 
 [entrypoint.models.pricing]
 input_per_million = 2.5
 output_per_million = 15.0
 cached_per_million = 0.25
+
+[[entrypoint.models]]
+id = "z-ai/glm-5.3-prime"
+
+[entrypoint.models.pricing]
+input_per_million = 1.68
+output_per_million = 5.28
+cached_per_million = 0.336
 
 [[entrypoint.models]]
 id = "z-ai/glm-5.1"
