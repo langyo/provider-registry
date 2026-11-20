@@ -122,7 +122,7 @@ id = "glm-5.3:batch"
 [entrypoint.models.pricing]
 input_per_million = 0.28
 output_per_million = 1.25
-cached_per_million = 0.062
+cached_per_million = 0.061
 
 [[entrypoint.models]]
 id = "glm-5.3-flash"
@@ -138,7 +138,7 @@ id = "glm-5.3-flash:batch"
 [entrypoint.models.pricing]
 input_per_million = 0.02
 output_per_million = 0.07
-cached_per_million = 0.01
+cached_per_million = 0.009
 
 [[entrypoint.models]]
 id = "glm-5.2-highspeed"

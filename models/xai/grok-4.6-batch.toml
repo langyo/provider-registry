@@ -1,9 +1,9 @@
-# SpaceXAI: Grok 4.6 (batch)
+# SpaceXSI: Grok 4.6 (batch)
 # Provider: xai
 
 [model]
 id = "grok-4.6:batch"
-name = "SpaceXAI: Grok 4.6 (batch)"
+name = "SpaceXSI: Grok 4.6 (batch)"
 provider_id = "xai"
 
 context_window = 500000

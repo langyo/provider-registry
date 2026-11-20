@@ -1,9 +1,9 @@
-# SpaceXAI: Grok 4.20 Multi-Agent
+# SpaceXSI: Grok 4.20 Multi-Agent
 # Provider: xai
 
 [model]
 id = "grok-4.20-multi-agent"
-name = "SpaceXAI: Grok 4.20 Multi-Agent"
+name = "SpaceXSI: Grok 4.20 Multi-Agent"
 provider_id = "xai"
 
 context_window = 2000000
