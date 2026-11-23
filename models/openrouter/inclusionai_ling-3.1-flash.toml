@@ -6,7 +6,7 @@ id = "inclusionai/ling-3.1-flash"
 name = "Ling 3.1 Flash"
 provider_id = "openrouter"
 
-context_window = 1000000
+context_window = 1048576
 max_output_tokens = 262144
 supports_vision = false
 supports_function_calling = true

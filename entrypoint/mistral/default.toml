@@ -69,13 +69,6 @@ output_per_million = 0.5
 cached_per_million = 0.03
 
 [[entrypoint.models]]
-id = "magistral-medium-latest"
-
-[entrypoint.models.pricing]
-input_per_million = 2.0
-output_per_million = 5.0
-
-[[entrypoint.models]]
 id = "mistral-large"
 
 [entrypoint.models.pricing]
@@ -134,6 +127,14 @@ id = "pixtral-large-latest"
 [entrypoint.models.pricing]
 input_per_million = 2.0
 output_per_million = 6.0
+
+[[entrypoint.models]]
+id = "magistral-medium-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 1.5
+output_per_million = 7.5
+cached_per_million = 0.15
 
 [[entrypoint.models]]
 id = "mistral-medium-latest"
@@ -243,14 +244,6 @@ output_per_million = 2.2
 cached_per_million = 0.044
 
 [[entrypoint.models]]
-id = "devstral-2512"
-
-[entrypoint.models.pricing]
-input_per_million = 0.4
-output_per_million = 2.0
-cached_per_million = 0.04
-
-[[entrypoint.models]]
 id = "devstral-latest"
 
 [entrypoint.models.pricing]
@@ -284,6 +277,14 @@ id = "mistral-medium-2508"
 [entrypoint.models.pricing]
 input_per_million = 0.4
 output_per_million = 2.0
+
+[[entrypoint.models]]
+id = "devstral-2512"
+
+[entrypoint.models.pricing]
+input_per_million = 0.4
+output_per_million = 2.0
+cached_per_million = 0.04
 
 [[entrypoint.models]]
 id = "devstral-medium"
@@ -348,6 +349,14 @@ output_per_million = 0.2
 cached_per_million = 0.02
 
 [[entrypoint.models]]
+id = "ministral-14b-latest"
+
+[entrypoint.models.pricing]
+input_per_million = 0.2
+output_per_million = 0.2
+cached_per_million = 0.02
+
+[[entrypoint.models]]
 id = "mistral-medium-3.1:batch"
 
 [entrypoint.models.pricing]
@@ -405,13 +414,6 @@ cached_per_million = 0.015
 
 [[entrypoint.models]]
 id = "open-mistral-nemo"
-
-[entrypoint.models.pricing]
-input_per_million = 0.15
-output_per_million = 0.15
-
-[[entrypoint.models]]
-id = "pixtral-12b"
 
 [entrypoint.models.pricing]
 input_per_million = 0.15

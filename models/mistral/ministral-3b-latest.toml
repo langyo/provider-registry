@@ -1,13 +1,13 @@
-# Ministral 3B (latest)
+# Ministral 3 3B (latest)
 # Provider: mistral
 
 [model]
 id = "ministral-3b-latest"
-name = "Ministral 3B (latest)"
+name = "Ministral 3 3B (latest)"
 provider_id = "mistral"
 
 context_window = 131072
-max_output_tokens = 128000
+max_output_tokens = 131072
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
