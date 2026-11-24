@@ -6,7 +6,7 @@ id = "accounts/fireworks/models/minimax-m3p1-flash"
 name = "MiniMax-M3.1-Flash"
 provider_id = "fireworks"
 
-context_window = 1000000
+context_window = 1048576
 max_output_tokens = 512000
 supports_vision = true
 supports_function_calling = true

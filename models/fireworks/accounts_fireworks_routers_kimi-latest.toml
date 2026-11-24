@@ -1,9 +1,9 @@
-# Kimi Latest
+# Kimi Latest (Kimi K3.1 Pro)
 # Provider: fireworks
 
 [model]
 id = "accounts/fireworks/routers/kimi-latest"
-name = "Kimi Latest"
+name = "Kimi Latest (Kimi K3.1 Pro)"
 provider_id = "fireworks"
 
 context_window = 1048576

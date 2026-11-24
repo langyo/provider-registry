@@ -7,17 +7,17 @@ name = "Qwen4 Max"
 provider_id = "qwen"
 
 context_window = 1000000
-max_output_tokens = 16384
+max_output_tokens = 262144
 supports_vision = true
 supports_function_calling = true
 supports_streaming = true
-supports_reasoning = false
+supports_reasoning = true
 tags = []
 
 [model.pricing]
-input_per_million = 1.42
-output_per_million = 4.27
-cached_per_million = 0.0713
+input_per_million = 1.5
+output_per_million = 4.5
+cached_per_million = 0.075
 
 [model.score]
 value = 42.9

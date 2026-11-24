@@ -122,6 +122,14 @@ output_per_million = 3.48
 cached_per_million = 0.2
 
 [[entrypoint.models]]
+id = "Qwen/Qwen4-Max"
+
+[entrypoint.models.pricing]
+input_per_million = 1.5
+output_per_million = 4.5
+cached_per_million = 0.075
+
+[[entrypoint.models]]
 id = "deepseek-ai/DeepSeek-V4-Pro-0813"
 
 [entrypoint.models.pricing]
@@ -160,14 +168,6 @@ output_per_million = 4.5
 cached_per_million = 0.2
 
 [[entrypoint.models]]
-id = "Qwen/Qwen4-Max"
-
-[entrypoint.models.pricing]
-input_per_million = 1.05
-output_per_million = 3.15
-cached_per_million = 0.0525
-
-[[entrypoint.models]]
 id = "meta-llama/Llama-3.3-70B-Instruct-Turbo"
 
 [entrypoint.models.pricing]
@@ -204,6 +204,22 @@ id = "deepseek-ai/DeepSeek-V3-1"
 [entrypoint.models.pricing]
 input_per_million = 0.6
 output_per_million = 1.7
+
+[[entrypoint.models]]
+id = "deepseek-ai/DeepSeek-V4.1-Flash-1017-fast"
+
+[entrypoint.models.pricing]
+input_per_million = 0.6
+output_per_million = 2.4
+cached_per_million = 0.012
+
+[[entrypoint.models]]
+id = "elorian-labs/glimpse-1.0"
+
+[entrypoint.models.pricing]
+input_per_million = 0.6
+output_per_million = 3.0
+cached_per_million = 0.06
 
 [[entrypoint.models]]
 id = "nvidia/nemotron-3-ultra-550b-a55b"
@@ -264,6 +280,13 @@ id = "meta-models/Muse-Glimmer-30B"
 input_per_million = 0.35
 output_per_million = 1.5
 cached_per_million = 0.04
+
+[[entrypoint.models]]
+id = "Qwen/Qwen3.7-Plus"
+
+[entrypoint.models.pricing]
+input_per_million = 0.32
+output_per_million = 1.28
 
 [[entrypoint.models]]
 id = "deepseek-ai/DeepSeek-V4.1-Flash"
@@ -365,6 +388,13 @@ output_per_million = 0.5
 cached_per_million = 0.02
 
 [[entrypoint.models]]
+id = "Qwen/Qwen3.8-Flash"
+
+[entrypoint.models.pricing]
+input_per_million = 0.15
+output_per_million = 0.47
+
+[[entrypoint.models]]
 id = "essentialai/Rnj-1-Instruct"
 
 [entrypoint.models.pricing]
@@ -385,24 +415,3 @@ id = "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
 [entrypoint.models.pricing]
 input_per_million = 0.14
 output_per_million = 0.14
-
-[[entrypoint.models]]
-id = "google/gemma-3n-E4B-it"
-
-[entrypoint.models.pricing]
-input_per_million = 0.06
-output_per_million = 0.12
-
-[[entrypoint.models]]
-id = "openai/gpt-oss-20b"
-
-[entrypoint.models.pricing]
-input_per_million = 0.05
-output_per_million = 0.2
-
-[[entrypoint.models]]
-id = "LiquidAI/LFM2-24B-A2B"
-
-[entrypoint.models.pricing]
-input_per_million = 0.03
-output_per_million = 0.12

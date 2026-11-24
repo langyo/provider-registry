@@ -1,0 +1,20 @@
+# Kimi K3.1 Pro (US)
+# Provider: fireworks
+
+[model]
+id = "accounts/fireworks/routers/kimi-k3p1-pro-us"
+name = "Kimi K3.1 Pro (US)"
+provider_id = "fireworks"
+
+context_window = 1048576
+max_output_tokens = 1048576
+supports_vision = true
+supports_function_calling = true
+supports_streaming = true
+supports_reasoning = true
+tags = []
+
+[model.pricing]
+input_per_million = 2.5
+output_per_million = 12.5
+cached_per_million = 0.25

@@ -28,8 +28,8 @@ ru = "Cohere (Официальный)"
 
 [entrypoint.defaults]
 deep = "command-a-reasoning-08-2025"
-normal = "north-mini-code-1-0"
-basic = "c4ai-aya-vision-8b"
+normal = "north-mini-code-1.0"
+basic = "north-mini-code-1-0"
 
 [entrypoint.defaults.max_concurrent]
 deep = 1
@@ -119,7 +119,13 @@ id = "c4ai-aya-vision-8b"
 id = "north-mini-code-1-0"
 
 [[entrypoint.models]]
+id = "north-mini-code-1.0"
+
+[[entrypoint.models]]
 id = "north-small-translate-09-2026"
+
+[[entrypoint.models]]
+id = "north-small-translate-1.0"
 
 [[entrypoint.models]]
 id = "tiny-aya-earth"

@@ -6,7 +6,7 @@ id = "gemini-2.5-flash-image"
 name = "Nano Banana"
 provider_id = "google"
 
-context_window = 32768
+context_window = 65536
 max_output_tokens = 32768
 supports_vision = true
 supports_function_calling = false

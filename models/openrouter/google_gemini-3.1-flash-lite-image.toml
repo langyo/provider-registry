@@ -7,7 +7,7 @@ name = "Nano Banana 2 Lite"
 provider_id = "openrouter"
 
 context_window = 65536
-max_output_tokens = 58982
+max_output_tokens = 4096
 supports_vision = true
 supports_function_calling = false
 supports_streaming = true
