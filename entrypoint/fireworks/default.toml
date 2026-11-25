@@ -237,6 +237,14 @@ output_per_million = 8.0
 cached_per_million = 0.38
 
 [[entrypoint.models]]
+id = "accounts/fireworks/models/qwen4-max"
+
+[entrypoint.models.pricing]
+input_per_million = 1.5
+output_per_million = 4.5
+cached_per_million = 0.075
+
+[[entrypoint.models]]
 id = "accounts/fireworks/routers/glm-latest"
 
 [entrypoint.models.pricing]
@@ -422,14 +430,6 @@ cached_per_million = 0.003
 
 [[entrypoint.models]]
 id = "accounts/fireworks/routers/deepseek-v4p1-flash-1017-spot"
-
-[entrypoint.models.pricing]
-input_per_million = 0.15
-output_per_million = 0.6
-cached_per_million = 0.003
-
-[[entrypoint.models]]
-id = "accounts/fireworks/routers/deepseek-v4p1-flash-spot"
 
 [entrypoint.models.pricing]
 input_per_million = 0.15

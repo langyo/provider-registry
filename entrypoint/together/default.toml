@@ -358,6 +358,14 @@ input_per_million = 0.2
 output_per_million = 0.6
 
 [[entrypoint.models]]
+id = "ricursive-ai/Ripple-65B-Preview"
+
+[entrypoint.models.pricing]
+input_per_million = 0.2
+output_per_million = 0.6
+cached_per_million = 0.02
+
+[[entrypoint.models]]
 id = "Qwen/Qwen3.5-9B"
 
 [entrypoint.models.pricing]
@@ -408,10 +416,3 @@ id = "deepseek-ai/DeepSeek-V4-Flash-0731"
 input_per_million = 0.14
 output_per_million = 0.28
 cached_per_million = 0.03
-
-[[entrypoint.models]]
-id = "meta-llama/Meta-Llama-3-8B-Instruct-Lite"
-
-[entrypoint.models.pricing]
-input_per_million = 0.14
-output_per_million = 0.14

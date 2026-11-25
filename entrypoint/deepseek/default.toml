@@ -82,6 +82,14 @@ output_per_million = 1.2
 cached_per_million = 0.2
 
 [[entrypoint.models]]
+id = "deepseek-v4.1-flash-1017"
+
+[entrypoint.models.pricing]
+input_per_million = 0.3
+output_per_million = 1.2
+cached_per_million = 0.006
+
+[[entrypoint.models]]
 id = "deepseek-r1-distill-qwen-32b"
 
 [entrypoint.models.pricing]
@@ -219,11 +227,3 @@ id = "deepseek-v4.1-flash-1017:batch"
 input_per_million = 0.04
 output_per_million = 0.15
 cached_per_million = 0.0029
-
-[[entrypoint.models]]
-id = "deepseek-v4.1-flash-1017"
-
-[entrypoint.models.pricing]
-input_per_million = 0.03
-output_per_million = 0.2
-cached_per_million = 0.001
