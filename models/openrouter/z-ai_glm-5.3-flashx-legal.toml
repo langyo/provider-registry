@@ -1,9 +1,9 @@
-# GLM 5.3 FlashX Legal
+# GLM-5.3-FlashX-Legal
 # Provider: openrouter
 
 [model]
 id = "z-ai/glm-5.3-flashx-legal"
-name = "GLM 5.3 FlashX Legal"
+name = "GLM-5.3-FlashX-Legal"
 provider_id = "openrouter"
 
 context_window = 1048576
