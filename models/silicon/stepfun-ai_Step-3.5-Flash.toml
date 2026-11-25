@@ -7,7 +7,7 @@ name = "stepfun-ai/Step-3.5-Flash"
 provider_id = "silicon"
 
 context_window = 262000
-max_output_tokens = 262000
+max_output_tokens = 66000
 supports_vision = false
 supports_function_calling = true
 supports_streaming = true
@@ -15,5 +15,5 @@ supports_reasoning = true
 tags = ["cost_effective"]
 
 [model.pricing]
-input_per_million = 0.1046
-output_per_million = 0.3138
+input_per_million = 0.1
+output_per_million = 0.3
